@@ -8,7 +8,7 @@ Du fängst am besten an, indem du selber experimentierst. Versuche eine Datei zu
 
 ### Was ist "Linux"?
 
-Wenn man von "Linux" redet, hat man oft ein gesamtes Betriebssystem im Kopf, ähnlich wie wenn man von "windows" redet. Das trifft hier aber nicht zu. "Linux" ist nur der Name für den zentralsten Teil des Betriebssystems: Den sogenannten [Kernel](https://de.wikipedia.org/wiki/Kernel_(Betriebssystem)).Um ein komplettes Betriebssystem zu bekommen, benötigt man allerdings noch viele weitere Teile, z.B. einen Paketmanager, verschiedene Systemdienste ("Daemons") oder einer Desktop-Umgebung. Eine Zusammenstellung von all diesen Dingen zu einem funktionierenden Betriebssystem wird "[Linux-Distribution](https://de.wikipedia.org/wiki/Linux-Distribution)" genannt - oder kurz oft einfach nur "Distro".
+Wenn man von "Linux" redet, hat man oft ein gesamtes Betriebssystem im Kopf, ähnlich wie wenn man von "windows" redet. Das trifft hier aber nicht zu. "Linux" ist nur der Name für den zentralsten Teil des Betriebssystems: Den sogenannten [Kernel](https://de.wikipedia.org/wiki/Kernel_(Betriebssystem)). Um ein komplettes Betriebssystem zu bekommen, benötigt man allerdings noch viele weitere Teile, z.B. einen Paketmanager, verschiedene Systemdienste ("Daemons") oder einer Desktop-Umgebung. Eine Zusammenstellung von all diesen Dingen zu einem funktionierenden Betriebssystem wird "[Linux-Distribution](https://de.wikipedia.org/wiki/Linux-Distribution)" genannt - oder kurz oft einfach nur "Distro".
 
 Und genau das ist Fedora KDE, dein aktuelles Betriebssystem, auch. Eine Zusammenstellung von verschiedensten Programmen mit dem Linux-Kernel im Zentrum.
 
