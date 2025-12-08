@@ -53,7 +53,8 @@ Mit ein paar guten Stichworten landet man dann tatsächlich in den allermeisten 
 In vielen Fällen ist auch Reddit sehr hilfreich. Subreddits wie r/Linux4Noobs ([reddit](https://www.reddit.com/r/linux4noobs/)) sind oft sehr praktisch um Konzepte oder Begriffe zu verstehen. Auch in diesem Guide finden sich bereits ein paar Links dorthin.
 Nach meiner Erfahrung eignen sich KI Modelle wie ChatGPT, Perplexity, oder Claude eher schlecht zum lösen von Problemen. Zumindest wenn es darum geht tatsächlich ein Problem zu lösen, eine Einstellung zu finden oder etwas bestimmtes zu konfigurieren.
 
-> [!TIP] Exkurs: Befehle im Terminal
+> [!TIP] 
+> Exkurs: Befehle im Terminal
 > Es ist absolut verständlich, dass man als Anfänger versucht das Terminal zu meiden. Dies ist mit einer modernen Desktop-Umgebung für einen durchschnittlichen Nutzer auch sehr gut möglich. Oft findet man online allerdings trotzdem Terminal-Befehle als Antwort auf ein Problem. Und dies hat gute Gründe, denn das Terminal ist deutlich mächtiger als die grafische Oberfläche und viele Dinge können hier deutlich einfacher vorgenommen werden, wenn man weiß wie es funktioniert. 
 > 
 >
