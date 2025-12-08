@@ -55,9 +55,13 @@ Nach meiner Erfahrung eignen sich KI Modelle wie ChatGPT, Perplexity, oder Claud
 
 > [!TIP] 
 > Exkurs: Befehle im Terminal
+> 
 > Es ist absolut verständlich, dass man als Anfänger versucht das Terminal zu meiden. Dies ist mit einer modernen Desktop-Umgebung für einen durchschnittlichen Nutzer auch sehr gut möglich. Oft findet man online allerdings trotzdem Terminal-Befehle als Antwort auf ein Problem. Und dies hat gute Gründe, denn das Terminal ist deutlich mächtiger als die grafische Oberfläche und viele Dinge können hier deutlich einfacher vorgenommen werden, wenn man weiß wie es funktioniert. 
 > 
->
+> > [!CAUTION] 
+> > Im Terminal ist vor allem wichtig:
+> > 
+> > Führe einen Befehl immernur dann aus, wenn du verstehst was dieser macht. Auch hier helfen dir Ressourcen wie Google oder die Dokumentation. Und auch KI-Modelle sind hier oft sehr praktisch, wenn man diese darum bittet den Befehl entsprechend zu erklären. 
 > 
 > Ich werde in einem späteren Kapitel nochmal genauer auf einige Grundlagen zum Terminal eingehen - auch wenn sich dies nicht immer sonderlich Anfängerfreundlich anfühlt.
 
