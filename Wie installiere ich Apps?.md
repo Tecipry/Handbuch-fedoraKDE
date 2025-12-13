@@ -51,5 +51,18 @@ Aber was bringt dir das? Lass uns einen Blick auf die Installation und anschlie�
 	```sh
 	sudo dnf install obs-studio
 	```
+	Da der Befehl mit `sudo` ausgeführt wird, müssen wir evtl. unser Passwort eingeben. 
 	Kurz danach wird uns eine Liste angezeigt, welche wir durch das eingeben von `y` für `yes` sowie einem `Enter` bestätigen müssen.
-	
+
+2. Starten der App
+	Die App kann nun normal gestartet und genutzt werden. Wie zuvor auch, werden wir die App im nächsten Schritt allerdings wieder deinstallieren.
+
+3. Deinstallation der App
+	Führe für die Deinstallation folgenden Befehl im Terminal aus:
+	```sh
+	sudo dnf remove obs-studio
+	```
+	Wieder wird uns eine Liste mit geplanten Änderungen angezeigt, welche wir mit `y` bestätigen können.
+
+4. Aufräumen
+	Wie auch unter Windows bleiben gewisse Dateien und verwaiste Abhängigkeiten von der App auf unserem System zurück. Mit dem Befehl
