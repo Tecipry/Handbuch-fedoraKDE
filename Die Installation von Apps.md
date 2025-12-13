@@ -25,6 +25,7 @@ Aber was bringt dir das? Lass uns einen Blick auf die Installation und anschlie�
 4. Deinstallation
 	Wo fangen wir überhaupt hier an? 
 	Der wahrscheinlich einfachste Weg beginnt in den Einstellungen: Unter "Apps" findet sich eine (mehr oder weniger vollständige) Liste der installierten Apps. Mit etwas Glück können wir hier die App auswählen und auf "Deinstallieren" drücken. Mit etwas Pech findet sich unsere App allerdings nicht in dieser Liste. 
+	
 	Da haben wir aber Glück, dass unser Betriebssystem eigentlich nur ein Skin für ältere Windows Versionen ist. Deshalb können wir über die Systemsteuerung zu den installierten Apps navigieren, um hier auf "Deinstallieren" zu drücken. Aber auch hier müssen wir hoffen, dass Microsoft uns wohlgesonnen ist - bei verschiedenen vorinstallierten Apps ist das ganze nämlich auch hier nicht möglich.
 
 5. Der setup wizard, again
@@ -32,6 +33,7 @@ Aber was bringt dir das? Lass uns einen Blick auf die Installation und anschlie�
 
 6. Aufräumen
 	Oft werden bei der Deinstallation nicht alle Daten des Programms gelöscht. Zum Beispiel bleiben oft Konfigurationsdateien auf dem System zurück. Dies kann eine praktische Sache sein: Sollten wir das Programm zu einem späteren Zeitpunkt erneut installieren, können diese Dateien genutzt werden um unter anderem Einstellungen wieder herzustellen. Aber mal ernsthaft: Ist das wirklich nötig? Oft wird dadurch einfach nur unser System mit Müll gefüllt.
+	
 	Wenn wir diese Dateien also auch löschen wollen, beginnt eine manuelle Jagd. Und dafür müssen wir an wirklich einigen Stellen schauen. Hier nur eine Auswahl an Orten, an denen sich noch Dateien von unserem Programm finden könnten:
 	
 	```txt
@@ -84,4 +86,5 @@ Was sind also die Vorteile die uns der Paketmanager in dieser Situation bringt. 
 
 - Sichere Installation aus Vertrauenswürdiger Quelle
 	Die Tatsache, dass wir auf Windows von irgendeiner Website eine Installationsdatei herunterladen müssen, stellt offensichtlicherweise ein Risiko dar. Es kommt oft vor, dass Hacker eine falsche Website für eine bekannte Software bauen, in der Hoffnung das Nutzer diese mit der echten Seite verwechseln und über den Download eine Schadsoftware installieren. Auch die Software aus unserem Beispiel, OBS, war in der Vergangenheit davon betroffen: [Google Ad serving fake OBS website with Malware | OBS Forums](https://obsproject.com/forum/threads/google-ad-serving-fake-obs-website-with-malware.162235/)
-	Im Gegensatz dazu werden die Pakete, welcher durch einen Paketmanager installiert werden können, zentral verwaltet. Hier werden die Pakete von vielen Augen überwacht und es kann sich nicht einfach ein falsches OBS einschleichen. Zusätzlich führt der Paketmanager während der Installation Sicherheitschecks durch, um sicherzustellen dass tatsächlich ein vertrauenswürdiges Paket aus einer vertrauenswürdigen Quelle installiert wird.
+	
+	Im Gegensatz dazu werden die Pakete, welche durch einen Paketmanager installiert werden können, zentral verwaltet. Hier werden die Pakete von vielen Augen überwacht und es kann sich nicht einfach ein falsches OBS einschleichen. Zusätzlich führt der Paketmanager während der Installation Sicherheitschecks durch, um sicherzustellen dass tatsächlich ein vertrauenswürdiges Paket aus einer vertrauenswürdigen Quelle installiert wird.
