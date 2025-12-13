@@ -9,12 +9,12 @@ Wenn du dein System schon etwas erkundet hast, wirst du wahrscheinlich auf das S
 
 Wie der Name vermuten lässt, ist ein Paketmanager (oder englisch: package manager) dafür zuständig, Pakete auf dem System zu verwalten. Ein Paket kannst du dir vereinfacht als eine App vorstellen - auch wenn dies eigentlich nicht richtig ist. Mit einem Paketmanager werden Pakete (also quasi Apps) installiert, verwaltet, und gelöscht. 
 
-Aber was bringt dir das? Lass uns einen Blick auf die Installation und anschließende Deinstallation einer App unter windows und unter Fedora mit dem Paketmanager `apt` werfen, um zu verstehen warum ein Paketmanager so unglaublich praktisch ist. Wir werden das ganze am Beispiel der App `Zen` machen. Dies ist ein browser, welcher auf Firefox basiert.
+Aber was bringt dir das? Lass uns einen Blick auf die Installation und anschließende Deinstallation einer App unter windows und unter Fedora mit dem Paketmanager `apt` werfen, um zu verstehen warum ein Paketmanager so unglaublich praktisch ist. Wir werden das ganze am Beispiel der App `OBS Studio` machen.
 
 ### Installation und Deinstallation einer App unter Windows
 
 1. Beschaffung der Installationsdatei
-	Zuerst benötigen wir unsere Installationsdatei. Hierzu suchen wir online zum Beispiel nach "Zen Browser download" und stoßen auf die Website [www.zen-browser.app](https://zen-browser.app/). Unter "Download" bekommen wir eine `.exe` Installationsdatei. Bei verschiedenen Programmen könnte dies jedoch auch eine `.msi` Datei sein, oder etwas völlig anderes.
+	Zuerst benötigen wir unsere Installationsdatei. Hierzu suchen wir online zum Beispiel nach "OBS download" und stoßen auf die Website [obsproject.com](https://obsproject.com). Unter "Download" bekommen wir eine `.exe` Installationsdatei. Bei anderen Programmen könnte dies jedoch auch eine `.msi` Datei sein, oder etwas völlig anderes.
 
 2. Der setup wizard
 	Beim Ausführen der Installationsdatei startet der setup wizard. Nachdem wir uns durch das Menü geklickt haben, beginnt die eigentliche Installation. Im Hintergrund werden dabei hauptsächlich Dateien heruntergeladen und an verschiedenen Positionen im Dateisystem abgelegt.
@@ -49,5 +49,6 @@ Aber was bringt dir das? Lass uns einen Blick auf die Installation und anschlie�
 1. Installation der App
 	Öffne ein Terminal und führe dort folgenden Befehl aus:
 	```sh
-	sudo dnf install zen
+	sudo dnf install obs-studio
 	```
+	Daraufhin wird eine 
