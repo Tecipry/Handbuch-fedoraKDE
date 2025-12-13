@@ -28,7 +28,7 @@ Bekannte Desktop-Umgebungen sind z.B. `Gnome` und `KDE Plasma` (oft kurz einfach
 
 ## `Paket` bzw. `package`
 
-Vereinfach eine Anwendung, also eine App für das Gerät. Dazu gehören allerdings nicht nur Dinge, die der Nutzer selber installiert. Auch Dinge die das System braucht um zu funktionieren sind Pakete.
+Vereinfacht gesagt ist es eine Anwendung, also eine App für das Gerät. Dazu gehören allerdings nicht nur Dinge, die der Nutzer selber installiert. Auch Dinge die das System braucht um zu funktionieren sind Pakete.
 
 ---
 ## `Paketmanager` bzw. `package manager`
