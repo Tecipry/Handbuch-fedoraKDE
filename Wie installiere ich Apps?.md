@@ -31,8 +31,8 @@ Aber was bringt dir das? Lass uns einen Blick auf die Installation und anschlie�
 	Durch das drücken auf den "Deinstallieren" Knopf startet der setup wizard der App. Diesmal allerdings führt er uns durch den Deinstallationsprozess. Erneut können wir uns also durch die Menüs klicken, bis wir am Ende die App deinstalliert haben.
 
 6. Aufräumen
-	Oft werden bei der Deinstallation nicht alle Daten des Programms gelöscht. Zum Beispiel bleiben oft Konfigurationsdateien auf dem System zurück. Dies ist grundsätzlich eine praktische Sache: Sollten wir das Programm zu einem späteren Zeitpunkt erneut installieren, können diese Dateien genutzt werden um unter anderem Einstellungen wieder herzustellen.
-	Es gibt aber Fälle, in denen wir wirklich alles was zum Programm gehört von unserem System löschen wollen. Es beginnt also die manuelle Jagd nach diesen verwaisten Dateien... und dafür müssen wir an einigen Stellen schauen. Hier nur eine Auswahl an Orten, an denen sich noch Dateien von unserem Programm finden könnten:
+	Oft werden bei der Deinstallation nicht alle Daten des Programms gelöscht. Zum Beispiel bleiben oft Konfigurationsdateien auf dem System zurück. Dies kann eine praktische Sache sein: Sollten wir das Programm zu einem späteren Zeitpunkt erneut installieren, können diese Dateien genutzt werden um unter anderem Einstellungen wieder herzustellen. Oft wird dadurch allerdings einfach nur das System mit Mühl gefüllt.
+	Wenn wir diese Dateien also auch löschen wollen, beginnt eine manuelle Jagd. Und dafür müssen wir an wirklich einigen Stellen schauen. Hier nur eine Auswahl an Orten, an denen sich noch Dateien von unserem Programm finden könnten:
 	
 	```txt
 	C:\Program Files\...
@@ -64,5 +64,9 @@ Aber was bringt dir das? Lass uns einen Blick auf die Installation und anschlie�
 	```
 	Wieder wird uns eine Liste mit geplanten Änderungen angezeigt, welche wir mit `y` bestätigen können.
 
-4. Aufräumen
-	Wie auch unter Windows bleiben gewisse Dateien und verwaiste Abhängigkeiten von der App auf unserem System zurück. Mit dem Befehl
+### Vergleich der beiden Abläufe
+
+Was sind also die Vorteile die uns der Paketmanager in dieser Situation bringt. Auch wenn aus diesem Beispiele hoffentlich einige sehr offensichtliche Punkte ersichtlich sind, möchte ich diese, sowie auch einige weitere, hier einmal auflisten:
+- Sichere Installation aus Vertrauenswürdiger Quelle
+	Die Tatsache, dass wir auf Windows von irgendeiner Website eine Installationsdatei herunterladen müssen, stellt offensichtlicherweise ein Risiko dar. Es kommt oft vor, dass Hacker eine falsche Website für eine bekannte Software bauen, in der Hoffnung das Nutzer diese mit der echten Seite verwechseln und über den Download eine Schadsoftware installieren. Auch die Software aus unserem Beispiel, OBS, war in der Vergangenheit schon davon betroffen: [Google Ad serving fake OBS website with Malware | OBS Forums](https://obsproject.com/forum/threads/google-ad-serving-fake-obs-website-with-malware.162235/)
+	
