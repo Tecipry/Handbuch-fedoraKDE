@@ -51,4 +51,5 @@ Aber was bringt dir das? Lass uns einen Blick auf die Installation und anschlie�
 	```sh
 	sudo dnf install obs-studio
 	```
-	Daraufhin wird eine 
+	Kurz danach wird uns eine Liste angezeigt, welche wir durch das eingeben von `y` für `yes` sowie einem `Enter` bestätigen müssen.
+	
