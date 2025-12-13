@@ -14,24 +14,30 @@ Aber was bringt dir das? Lass uns einen Blick auf die Installation und anschlie�
 ### Installation und Deinstallation einer App unter Windows
 
 1. Beschaffung der Installationsdatei
+
 	Zuerst benötigen wir unsere Installationsdatei. Hierzu suchen wir online zum Beispiel nach "OBS download" und stoßen auf die Website [obsproject.com](https://obsproject.com). Unter "Download" bekommen wir eine `.exe` Installationsdatei. Bei anderen Programmen könnte dies jedoch auch eine `.msi` Datei sein, oder etwas völlig anderes.
 
 2. Der setup wizard
+   
 	Beim Ausführen der Installationsdatei startet der setup wizard. Nachdem wir uns durch das Menü geklickt haben, beginnt die eigentliche Installation. Im Hintergrund werden dabei hauptsächlich Dateien heruntergeladen und an verschiedenen Positionen im Dateisystem abgelegt.
 
-3. Starten der App
+2. Starten der App
+   
 	Nun ist die App installiert und kann normal gestartet werden. Für dieses Beispiel werden wir die App als nächstes allerdings wieder deinstallieren.
 
-4. Deinstallation
+2. Deinstallation
+   
 	Wo fangen wir überhaupt hier an? 
 	Der wahrscheinlich einfachste Weg beginnt in den Einstellungen: Unter "Apps" findet sich eine (mehr oder weniger vollständige) Liste der installierten Apps. Mit etwas Glück können wir hier die App auswählen und auf "Deinstallieren" drücken. Mit etwas Pech findet sich unsere App allerdings nicht in dieser Liste. 
 	
 	Da haben wir aber Glück, dass unser Betriebssystem eigentlich nur ein Skin für ältere Windows Versionen ist. Deshalb können wir über die Systemsteuerung zu den installierten Apps navigieren, um hier auf "Deinstallieren" zu drücken. Aber auch hier müssen wir hoffen, dass Microsoft uns wohlgesonnen ist - bei verschiedenen vorinstallierten Apps ist das ganze nämlich auch hier nicht möglich.
 
-5. Der setup wizard, again
+2. Der setup wizard, again
+   
 	Durch das drücken auf den "Deinstallieren" Knopf startet der setup wizard der App. Diesmal allerdings führt er uns durch den Deinstallationsprozess. Erneut können wir uns also durch die Menüs klicken, bis wir am Ende die App deinstalliert haben.
 
-6. Aufräumen
+2. Aufräumen
+   
 	Oft werden bei der Deinstallation nicht alle Daten des Programms gelöscht. Zum Beispiel bleiben oft Konfigurationsdateien auf dem System zurück. Dies kann eine praktische Sache sein: Sollten wir das Programm zu einem späteren Zeitpunkt erneut installieren, können diese Dateien genutzt werden um unter anderem Einstellungen wieder herzustellen. Aber mal ernsthaft: Ist das wirklich nötig? Oft wird dadurch einfach nur unser System mit Müll gefüllt.
 	
 	Wenn wir diese Dateien also auch löschen wollen, beginnt eine manuelle Jagd. Und dafür müssen wir an wirklich einigen Stellen schauen. Hier nur eine Auswahl an Orten, an denen sich noch Dateien von unserem Programm finden könnten:
@@ -49,6 +55,7 @@ Aber was bringt dir das? Lass uns einen Blick auf die Installation und anschlie�
 ### Installation und Deinstallation einer App mit dem Paketmanager `apt`
 
 1. Installation der App
+   
 	Öffne ein Terminal und führe dort folgenden Befehl aus:
 	```sh
 	sudo dnf install obs-studio
@@ -56,10 +63,12 @@ Aber was bringt dir das? Lass uns einen Blick auf die Installation und anschlie�
 	Da der Befehl mit `sudo` ausgeführt wird, müssen wir evtl. unser Passwort eingeben. 
 	Kurz danach wird uns eine Liste angezeigt, welche wir durch das eingeben von `y` für `yes` sowie einem `Enter` bestätigen müssen.
 
-2. Starten der App
+1. Starten der App
+   
 	Die App kann nun normal gestartet und genutzt werden. Wie zuvor auch, werden wir die App im nächsten Schritt allerdings wieder deinstallieren.
 
-3. Deinstallation der App
+1. Deinstallation der App
+   
 	Führe für die Deinstallation folgenden Befehl im Terminal aus:
 	```sh
 	sudo dnf remove obs-studio
