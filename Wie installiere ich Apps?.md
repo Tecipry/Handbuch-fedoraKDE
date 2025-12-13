@@ -13,3 +13,5 @@ Aber was bringt dir das? Lass uns einen Blick auf die Installation und anschlie�
 
 ### Installation einer App unter Windows
 
+1. Beschaffung der Installationsdatei
+	Zuerst benötigen wir unsere Installationsdatei. Hierzu suchen wir online nach zum Beispiel "Zen Browser download" und stoßen auf die Website 
