@@ -18,7 +18,7 @@ In der Datei [Begrifflichkeiten](Begrifflichkeiten.md) habe ich eine kleine Übe
 
 ### [Tipps bei Fragen und zur Fehleranalyse](Tipps%20bei%20Fragen%20und%20zur%20Fehleranalyse.md) 
 
-### [Wie installiere ich Apps?](Wie%20installiere%20ich%20Apps?.md)
+### [Die Installation von Apps](Die%20Installation%20von%20Apps.md)
 
 
 
