@@ -31,13 +31,13 @@ Kurz für "Distribution", oft auch "Linux-Distro" oder ähnliches.
 Eine Distro eine Auswahl aufeinander abgestimmter Softwarepakete mit dem Linux-Kernel im Zentrum. Viele Distros lassen sich in "Familien" einordnen, da sie aufeinander basieren oder ähnliche Software nutzen. Mehr Infos auf Wikipedia ([wikipedia](https://de.wikipedia.org/wiki/Linux-Distribution)).
 Bekannte Distros sind unter anderem:
 - `Debian` 
-	Auf debian basiert eine große Familie an weiteren Distros wie `ubuntu` (auf welchem wiederum dutzende Distros basieren), `Kali Linux` oder `Raspberry Pi OS`.
+	Auf Debian basiert eine große Familie an weiteren Distros wie `ubuntu` (auf welchem wiederum dutzende Distros basieren), `Kali Linux` oder `Raspberry Pi OS`.
 - `Linux Mint`
 - `Fedora`
 	Zu dieser Familie, entwickelt vom fedoraproject ([fedoraproject](https://www.fedoraproject.org/)), gehören Distros wie `Fedora Workstation`, `Fedora Server`, oder `Fedora KDE` - oder wenn wir ganz korrekt sein wollen: `Fedora KDE Plasma Desktop`.
 	Auch `Red Hat Enterprise Linux` ist eine von der Firma RedHat ([redhat](https://www.redhat.com/de)) entwickelte Distro, welche sich an Geschäftskunden richtet und dabei auf Fedora basiert.
 #### `Desktop-Umgebung` bzw. `Desktop-Environment`
-Eine Sammlung an Paketen, durch welche eine grafische Benutzeroberfläche für das System ermöglicht wird. Hierzu gehören unter anderem meistens Dinge ein Fenstermanager, damit Apps entsprechend angezeigt werden können, Standardprogramme wie eine Office-Suite, oder eine Statusbar um Systeminformationen anzuzeigen ([reddit](https://www.reddit.com/r/linux4noobs/comments/f2ye9t/what_is_a_desktop_environment/)).
+Eine Sammlung an Paketen, durch welche eine grafische Benutzeroberfläche für das System ermöglicht wird. Hierzu gehören unter anderem meistens Dinge ein Fenstermanager, damit Apps entsprechend angezeigt werden können, Standardprogramme wie eine Office-Suite, oder eine Status-bar um Systeminformationen anzuzeigen ([reddit](https://www.reddit.com/r/linux4noobs/comments/f2ye9t/what_is_a_desktop_environment/)).
 Bekannte Desktop-Umgebungen sind z.B. `Gnome` und `KDE Plasma` (oft kurz einfach nur `KDE`, auch wenn dies eigentlich etwas anderes ist: [reddit](https://www.reddit.com/r/linux4noobs/comments/v4iwb9/difference_between_kde_and_kde_plasma/)).
 
 ---
@@ -47,7 +47,7 @@ Früher oder später wirst du an einer bestimmten Sache mit diesem Guide und ein
 
 #### Google ist dein Freund
 
-Linux wird von einem haufen Nerds entwickelt und genutzt. Das führt dazu, dass zu den allermeisten Dingen schon irgendetwas geschrieben wurde, irgendwer in einem Forum eine entsprechende Frage gestellt hat, oder die Antwort in der entsprechenden Dokumentation liegt. Oft reicht es deswegen, in der Suchmaschine des Vertrauens ein paar entsprechende Stichworte einzugeben. Infos wie die [Desktop-Umgebung](Handbuch-fedoraKDE/README.md#Desktop-Umgebung%20bzw.%20Desktop-Environment), also bei dir "KDE Plasma" oder die [Distro](Handbuch-fedoraKDE/README.md#Distro), also "Fedora", sind hier oft sehr hilfreich. Da es so viele verschiedene Linux-Distros gibt, reicht es in der Regel nicht aus einfach nur Dinge wie "Linux" anzuhängen.
+Linux wird von einem Haufen Nerds entwickelt und genutzt. Das führt dazu, dass zu den allermeisten Dingen schon irgendetwas geschrieben wurde, irgendwer in einem Forum eine entsprechende Frage gestellt hat, oder die Antwort in der entsprechenden Dokumentation liegt. Oft reicht es deswegen, in der Suchmaschine des Vertrauens ein paar entsprechende Stichworte einzugeben. Infos wie die [Desktop-Umgebung](Handbuch-fedoraKDE/README.md#Desktop-Umgebung%20bzw.%20Desktop-Environment), also bei dir "KDE Plasma" oder die [Distro](Handbuch-fedoraKDE/README.md#Distro), also "Fedora", sind hier oft sehr hilfreich. Da es so viele verschiedene Linux-Distros gibt, reicht es in der Regel nicht aus einfach nur Dinge wie "Linux" anzuhängen.
 Mit ein paar guten Stichworten landet man dann tatsächlich in den allermeisten Fällen bei sehr hilfreichen Links - und nicht einfach nur bei einer generischen Microsoft help Seite, welche dir falsche Hoffnungen macht 😒.
 
 In vielen Fällen ist auch Reddit sehr hilfreich. Subreddits wie r/Linux4Noobs ([reddit](https://www.reddit.com/r/linux4noobs/)) sind oft sehr praktisch um Konzepte oder Begriffe zu verstehen. Auch in diesem Guide finden sich bereits ein paar Links dorthin.
@@ -67,7 +67,7 @@ Nach meiner Erfahrung eignen sich KI Modelle wie ChatGPT, Perplexity, oder Claud
 
 Für die Arbeit mit dem Computer ist für uns die Desktop-Umgebung (oder englisch: "Desktop-Environment") sehr wichtig. Grundlegend gesagt kümmert sich die Desktop-Umgebung darum, dass Dinge am Ende auf dem Bildschirm zu sehen sind und du als Nutzer mit dem System auf grafische Weise interagieren kannst.
 
-Für dich ist dies "KDE Plasma", welche oft auch einfach kurz als "KDE" bezeichnet wird, entwickelt von der [KDE-Community](https://kde.org/de/). Vielleicht sind dir in den vorinstallierten Apps schon einige Namen wie "KWrite", "KCalc", oder "KMail" aufgefallen. Diese stammen ebenfalls von denselben Entwicklern und sind als Teil der Distribution auf deinem System vorinstalliert.
+Für dich ist dies "KDE Plasma", welches oft auch einfach kurz als "KDE" bezeichnet wird, entwickelt von der [KDE-Community](https://kde.org/de/). Vielleicht sind dir in den vorinstallierten Apps schon einige Namen wie "KWrite", "KCalc", oder "KMail" aufgefallen. Diese stammen ebenfalls von denselben Entwicklern und sind als Teil der Distribution auf deinem System vorinstalliert.
 
 Hier kommt übrigens auch das "KDE" im Namen von "Fedora KDE" her. Und hier liegt auch der Unterschied zu der anderen großen Fedora Distro "Fedora Workstation": Dort kommt nämlich die Desktop-Umgebung "Gnome" zum Einsatz.
 
