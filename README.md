@@ -1,5 +1,4 @@
 
-
 In diesem Guide versuche ich, einen Einstieg in die Linux Welt zu ermöglichen. Da dieser primär für meine wunderbare Partnerin geschrieben ist, beziehe ich mich dabei auf die Distro welche auf ihrem Rechner landen wird: Fedora KDE. 
 An einigen Stellen in diesem Guide sind Hyperlinks zu finden. Wenn solch ein Link direkt auf einem Wort hinterlegt ist wie [hier](Handbuch-fedoraKDE/README.md#Übersicht), so verlinkt dieser an eine andere Stelle im Guide. Wenn er sich in einer Klammer hinter dem Wort befindet, ist es ein weiterführender Link der aus diesem Guide herausführt, wie hier ([youtube](https://www.youtube.com/watch?v=dQw4w9WgXcQ)).
 
