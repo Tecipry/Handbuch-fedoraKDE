@@ -14,4 +14,4 @@ Aber was bringt dir das? Lass uns einen Blick auf die Installation und anschlie�
 ### Installation einer App unter Windows
 
 1. Beschaffung der Installationsdatei
-	Zuerst benötigen wir unsere Installationsdatei. Hierzu suchen wir online zum Beispiel nach "Zen Browser download" und stoßen auf die Website [www.zen-browser.app](https://zen-browser.app/). Unter "Download" finden wir dann den
+	Zuerst benötigen wir unsere Installationsdatei. Hierzu suchen wir online zum Beispiel nach "Zen Browser download" und stoßen auf die Website [www.zen-browser.app](https://zen-browser.app/). Unter "Download" bekommen wir dann eine `.exe` Installationsdatei
