@@ -7,4 +7,4 @@ Wenn du dein System schon etwas erkundet hast, wirst du wahrscheinlich auf das S
 
 # Der Paketmanager
 
-Wie der Name vermuten lässt, ist ein Paketmanager (oder englisch: package manager) dafür zuständig, Pakete auf dem System zu verwalten. Ein Paket kannst du dir vereinfacht als eine App vorstellen.
+Wie der Name vermuten lässt, ist ein Paketmanager (oder englisch: package manager) dafür zuständig, Pakete auf dem System zu verwalten. Ein Paket kannst du dir vereinfacht als eine App vorstellen - auch wenn dies eigentlich nicht richtig ist. Mit einem Paketmanager werden Pakete (also quasi Apps) installiert, verwaltet, und gelöscht. Schauen wir uns doch einfach mal die Installation von einer Anwendung unter windows an, um zu verstehen warum ein Paketmanager so ungl
