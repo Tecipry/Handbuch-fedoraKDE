@@ -5,13 +5,14 @@ Wenn du dein System schon etwas erkundet hast, wirst du wahrscheinlich auf das S
 
 "Ich nutze also einfach diese App" wirst du dir denken. Und es spricht auch grundsätzlich nichts dagegen, deine Apps hier herunterzuladen und zu managen. Wenn du jedoch etwas tiefer in das Thema eintauchen willst, solltest du hier weiterlesen.
 
+---
 # Der Paketmanager
 
 Wie der Name vermuten lässt, ist ein Paketmanager (oder englisch: package manager) dafür zuständig, Pakete auf dem System zu verwalten. Ein Paket kannst du dir vereinfacht als eine App vorstellen - auch wenn dies eigentlich nicht richtig ist. Mit einem Paketmanager werden Pakete (also quasi Apps) installiert, verwaltet, und gelöscht. 
 
 Aber was bringt dir das? Lass uns einen Blick auf die Installation und anschließende Deinstallation einer App unter windows und unter Fedora mit dem Paketmanager `apt` werfen, um zu verstehen warum ein Paketmanager so unglaublich praktisch ist. Wir werden das ganze am Beispiel der App `OBS Studio` machen.
 
-### Installation und Deinstallation einer App unter Windows
+## Installation und Deinstallation einer App unter Windows
 
 1. Beschaffung der Installationsdatei
 
@@ -52,7 +53,7 @@ Aber was bringt dir das? Lass uns einen Blick auf die Installation und anschlie�
 	
 	Viel Spaß ;D
 
-### Installation und Deinstallation einer App mit dem Paketmanager `apt`
+## Installation und Deinstallation einer App mit dem Paketmanager `apt`
 
 1. Installation der App
    
@@ -75,7 +76,7 @@ Aber was bringt dir das? Lass uns einen Blick auf die Installation und anschlie�
 	```
 	Wieder wird uns eine Liste mit geplanten Änderungen angezeigt, welche wir mit `y` bestätigen können.
 
-### Vergleich der beiden Abläufe
+## Vergleich der beiden Abläufe
 
 Was sind also die Vorteile die uns der Paketmanager in dieser Situation bringt. Auch wenn aus diesem Beispiele hoffentlich einige sehr offensichtliche Punkte ersichtlich sind, möchte ich diese, sowie auch einige weitere, hier einmal auflisten:
 - Einfache Installation und Deinstallation
@@ -101,3 +102,8 @@ Was sind also die Vorteile die uns der Paketmanager in dieser Situation bringt. 
 	Die Tatsache, dass wir auf Windows von irgendeiner Website eine Installationsdatei herunterladen müssen, stellt offensichtlicherweise ein Risiko dar. Es kommt oft vor, dass Hacker eine falsche Website für eine bekannte Software bauen, in der Hoffnung das Nutzer diese mit der echten Seite verwechseln und über den Download eine Schadsoftware installieren. Auch die Software aus unserem Beispiel, OBS, war in der Vergangenheit davon betroffen: [Google Ad serving fake OBS website with Malware | OBS Forums](https://obsproject.com/forum/threads/google-ad-serving-fake-obs-website-with-malware.162235/)
 	
 	Im Gegensatz dazu werden die Pakete, welche durch einen Paketmanager installiert werden können, zentral verwaltet. Hier werden die Pakete von vielen Augen überwacht und es kann sich nicht einfach ein falsches OBS einschleichen. Zusätzlich führt der Paketmanager während der Installation Sicherheitschecks durch, um sicherzustellen dass tatsächlich ein vertrauenswürdiges Paket aus einer vertrauenswürdigen Quelle installiert wird.
+
+---
+# Funktionsweise eines Paketmanagers
+
+#ToDo
