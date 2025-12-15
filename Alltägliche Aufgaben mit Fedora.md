@@ -24,4 +24,8 @@ Es gibt auch noch weitere LibreOffice Programme auf deinem System, welche sich n
 Auf Windows ist das snipping Tool eine sehr praktische Anwendung um schnell Screenshots von einem Bildschirmbereich zu machen. Auf deinem Rechner befindet sich eine ähnlich Anwendung: `Spectacle`
 ![](99%20assets/Pasted%20image%2020251215212201.png)
 
-Beim öffnen der App
+Beim öffnen der App sehen wir, wie am oberen und am unteren Bildschirmrand je eine Menüleiste erscheint. Leider kann ich hier keinen Screenshot einfügen, da die App sich selbst versteckt wenn ich einen Screenshot von meinem Bildschirm machen möchte.
+
+In der oberen Leiste können wir verschiedene Effekte, wie kleine Zeichnungen oder einen Blur auf den Bildschirm anwenden. Außerdem lässt sich über die `Crop` Funktion ein Bildschirmbereich für den Screenshot auswählen.
+
+In der unteren Leiste befinden sich verschiedene Konfigurationen der Anwendung selber. Über den Menüpunkt `Options > Configure Spectacle...`  gelangen wir in die Einstellungen. Hier können wir z.B. unter `General` einstellen, dass Screenshots Standardmäßig nur in der Zwischenablage gespeichert werden sollen. Unter `Hotkeys` sehen wir außerdem, dass wir Spectacle mit dem Shortcut `super + shift + s` jederzeit starten können. 
