@@ -1,4 +1,4 @@
-Überall gibt es diese kleinen, praktischen Dinge, welche man irgendwann man findet und dann total super findet. Fedora, und Linux im allgemeinen, ist voll davon und während du mit dem Betriebssystem experimentierst wirst du sicherlich vieles finden. Im folgenden befinden sich einige dieser Dinge, die ich irgendwann mal entdeckt habe und sehr hilfreich finde.
+Überall gibt es diese kleinen, praktischen Dinge, welche man irgendwann findet und dann total super findet. Fedora, und Linux im allgemeinen, ist voll davon und während du mit dem Betriebssystem experimentierst wirst du sicherlich vieles finden. Im folgenden befinden sich einige dieser Dinge, die ich irgendwann mal entdeckt habe und seitdem sehr hilfreich finde.
 
 ---
 # KRunner
