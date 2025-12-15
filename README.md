@@ -23,6 +23,9 @@ In der Datei [Begrifflichkeiten](Begrifflichkeiten.md) habe ich eine kleine Übe
 
 ### [Alltägliche Aufgaben mit Fedora](Alltägliche%20Aufgaben%20mit%20Fedora.md)
 
+### [praktische Dinge und kleine Hacks](praktische%20Dinge%20und%20kleine%20Hacks.md)
+
+### [Das Terminal](Das%20Terminal.md)
 
 # weitere Links
 
