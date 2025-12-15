@@ -45,4 +45,12 @@ Wir bleiben in den Einstellungen und schauen uns die Optionen unter zum Theming 
 
 ![](99%20assets/Pasted%20image%2020251215224658.png)
 
-Hier lassen sich z.B. Akzentfarben unter dem Punkt `Colours` einrichten - aber dafür sind wir nicht hier. Wenn wir zum Beispiel in den Tab `Icons` hineingehen, sehen wir oben rechts die Option `Install from File`. Ich habe selber noch nie damit herumgespielt. Allerdings ist es möglich, hier z.B. selbst erstelle Icons für z.B. Apps zu laden.
+Hier lassen sich z.B. Akzentfarben unter dem Punkt `Colours` einrichten - aber dafür sind wir nicht hier. Wenn wir zum Beispiel in den Tab `Icons` hineingehen, sehen wir oben rechts die Option `Install from File`. Ich habe selber noch nie damit herumgespielt. Ich weiß jedoch dass es möglich ist, hier z.B. selbst erstelle Icons für z.B. Apps zu laden.
+
+# KDE Connect
+
+Wie Air Drop, aber ohne auf Apple angewiesen zu sein.
+
+![](99%20assets/Pasted%20image%2020251215225752.png)
+
+Mit der entsprechenden App auf dem Handy können u.a. Dateien geteilt und die Zwischenablage der Geräte miteinander synchronisiert werden. Unglaublich praktisch.
