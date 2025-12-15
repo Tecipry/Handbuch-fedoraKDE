@@ -17,4 +17,11 @@ Es gibt auch noch weitere LibreOffice Programme auf deinem System, welche sich n
   Wie der Name vermuten lässt handelt es sich hier um ein Programm zum zeichnen
 - LibreOffice Math
   ![](99%20assets/Pasted%20image%2020251214105709.png)
-  Ein Programm um mit mathematischen Ausdrücken, Funktionen, Graphen und weiterem zu arbeiten
+  Ein Programm um mit mathematischen Ausdrücken, Funktionen, Graphen und weiterem zu arbeiten.
+
+# Screenshots
+
+Auf Windows ist das snipping Tool eine sehr praktische Anwendung um schnell Screenshots von einem Bildschirmbereich zu machen. Auf deinem Rechner befindet sich eine ähnlich Anwendung: `Spectacle`
+![](99%20assets/Pasted%20image%2020251215212201.png)
+
+Beim öffnen der App
