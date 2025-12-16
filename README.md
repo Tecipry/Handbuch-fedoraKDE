@@ -21,7 +21,7 @@ In der Datei [Begrifflichkeiten](Begrifflichkeiten.md) habe ich eine kleine Übe
 
 ### [Die Installation von Apps](Die%20Installation%20von%20Apps.md)
 
-### [Alltägliche Aufgaben mit Fedora](Alltägliche%20Aufgaben%20mit%20Fedora.md)
+### [Alltägliche Tätigkeiten mit Fedora](Alltägliche%20Tätigkeiten%20mit%20Fedora.md)
 
 ### [praktische Dinge und kleine Hacks](praktische%20Dinge%20und%20kleine%20Hacks.md)
 

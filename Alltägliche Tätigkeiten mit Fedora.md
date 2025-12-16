@@ -1,6 +1,7 @@
 
 Nachdem ich jetzt schon einiges zum System und allen Möglichen praktischen "good to know" Dingen geschrieben habe, möchte ich hier einmal auf einige ganz alltägliche Aufgaben und Schwierigkeiten zu sprechen kommen. 
 
+---
 # Office Aufgaben
 
 Auf Windows sind wir die Office Suite mit Programmen wie Word, Excel, und PowerPoint gewohnt. Zum Glück gibt es einige alternativen. Eine der verbreitetsten ist auf deinem System auch schon vorinstalliert: Die LibreOffice Suite. Viele der Programme sind in ihrem Aufbau sehr ähnlich dazu, wie wir es von Microsoft gewohnt sind. Die Dateien lassen sich auch in einem Microsoft - freundlichen Format speichern, falls du diese in Zukunft mit Windows bearbeiten musst. Wenn es aber nicht nötig ist, solltest du beim Standardformat bleiben. Probier dich doch einfach mal aus:
@@ -19,6 +20,7 @@ Es gibt auch noch weitere LibreOffice Programme auf deinem System, welche sich n
   ![](99%20assets/Pasted%20image%2020251214105709.png)
   Ein Programm um mit mathematischen Ausdrücken, Funktionen, Graphen und weiterem zu arbeiten.
 
+---
 # Screenshots
 
 Auf Windows ist das snipping Tool eine sehr praktische Anwendung um schnell Screenshots von einem Bildschirmbereich zu machen. Auf deinem Rechner befindet sich eine ähnlich Anwendung: `Spectacle`
@@ -29,3 +31,13 @@ Beim öffnen der App sehen wir, wie am oberen und am unteren Bildschirmrand je e
 In der oberen Leiste können wir verschiedene Effekte, wie kleine Zeichnungen oder einen Blur auf den Bildschirm anwenden. Außerdem lässt sich über die `Crop` Funktion ein Bildschirmbereich für den Screenshot auswählen.
 
 In der unteren Leiste befinden sich verschiedene Konfigurationen der Anwendung selber. Über den Menüpunkt `Options > Configure Spectacle...`  gelangen wir in die Einstellungen. Hier können wir z.B. unter `General` einstellen, dass Screenshots Standardmäßig nur in der Zwischenablage gespeichert werden sollen. Unter `Hotkeys` sehen wir außerdem, dass wir Spectacle mit dem Shortcut `super + shift + s` jederzeit starten können. 
+
+---
+# Gaming
+
+Inzwischen ist es sehr gut möglich Linux auch zum spielen von Spielen zu nutzen. Steam zum Beispiel kann einfach heruntergeladen werden:
+```sh
+sudo dnf install steam
+```
+
+Natürlich ist Steam auch in der Discover - App zu finden und kann von dort installiert werden.
