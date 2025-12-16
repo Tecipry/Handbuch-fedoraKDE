@@ -26,6 +26,7 @@ theme:
 markdown_extensions:
   - footnotes
   - admonition
+  - awesome-pages
   # - attr_list
   - pymdownx.arithmatex:
       generic: true
