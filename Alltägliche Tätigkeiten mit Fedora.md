@@ -35,9 +35,11 @@ In der unteren Leiste befinden sich verschiedene Konfigurationen der Anwendung s
 ---
 # Gaming
 
-Inzwischen ist es sehr gut möglich Linux auch zum spielen von Spielen zu nutzen. Steam zum Beispiel kann einfach heruntergeladen werden:
+Inzwischen ist es sehr gut möglich Linux auch zum spielen von Spielen zu nutzen. Hier hat die Firma Valve, welche auch hinter Steam steht, in den letzten Jahren viel Arbeit geleistet, wovon die ganze Community profitieren kann. Ein wichtiger Teil davon ist ein Tool Namens Proton.
+
+Apropros Steam: Die App kann natürlich einfach heruntergeladen werden
 ```sh
 sudo dnf install steam
 ```
 
-Natürlich ist Steam auch in der Discover - App zu finden und kann von dort installiert werden.
+Alternativ funktioniert die Installation natürlich auch wenn man in der `Discover` App nach Steam sucht.
