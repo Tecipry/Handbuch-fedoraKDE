@@ -25,11 +25,12 @@ theme:
 # Extensions
 markdown_extensions:
   - footnotes
+  - admonition
   # - attr_list
   - pymdownx.arithmatex:
       generic: true
-  # - pymdownx.superfences
-  # - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.details
   # - pymdownx.magiclink
   - pymdownx.tasklist:
       custom_checkbox: true
@@ -50,6 +51,7 @@ markdown_extensions:
 
 plugins:
   - search
+  - callouts
   - roamlinks
   - blog
   - rss:
