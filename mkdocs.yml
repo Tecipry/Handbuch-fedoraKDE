@@ -26,7 +26,6 @@ theme:
 markdown_extensions:
   - footnotes
   - admonition
-  - awesome-pages
   # - attr_list
   - pymdownx.arithmatex:
       generic: true
@@ -52,6 +51,7 @@ markdown_extensions:
 
 plugins:
   - search
+  - awesome-pages
   - callouts
   - roamlinks
 
