@@ -3,7 +3,7 @@
 ---
 # KRunner
 
-Drücke `alt + Leertaste` und am oberen Rand deines Bildschirms erscheint eine kleine Suchleiste. Ähnlich wie mit der Suche im Startmenü kannst du hier Apps starten oder Dateien suchen. Allerdings können hier z.B. auch verschiedene Einheiten ineinander konvertiert werden. Du schaust gerade ein Video und der Amerikaner redet von "72 miles per day"? Kein Problem:
+Drücke `alt + Leertaste` und am oberen Rand deines Bildschirms erscheint eine kleine Suchleiste. Ähnlich wie mit der Suche im Startmenü kannst du hier Apps starten oder Dateien suchen. Allerdings können hier z.B. auch verschiedene Einheiten ineinander konvertiert werden. Du schaust gerade irgendein Video und der Amerikaner redet von "72 miles per hour"? Kein Problem:
 
 ![](99%20assets/Pasted%20image%2020251215220134.png)
 
