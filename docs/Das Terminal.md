@@ -91,7 +91,8 @@ Nutze den `ls` Befehl, um in den eben erstellten Ordner zu navigieren.
 > 
 ---
 
-
+> [] Hinweis
+> Am Ende dieses Abschnitts habe ich alle beschriebenen Befehle (und ggf. auch einiges weiteres) gesammelt: [Befehlsübersicht](Das%20Terminal.md#Befehlsübersicht).
 
 ---
 # Befehlsübersicht
