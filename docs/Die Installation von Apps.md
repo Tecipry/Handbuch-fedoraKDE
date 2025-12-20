@@ -135,4 +135,5 @@ Primär solltest du probieren, den Paketmanager zu nutzen der Standardmäßig mi
 
 > [!NOTE]
 > Das Software Centre nutzt übrigens auch sowohl dnf wie auch Flatpak. Oben rechts können wir für eine bestimmte App auswählen, welcher Paketmanager für die jeweilige App genutzt werden soll - natürlich unter der Voraussetzung, dass das Paket bei mehreren Paketmanagern existiert.
+> 
 > ![](99%20assets/Pasted%20image%2020251220095956.png)
