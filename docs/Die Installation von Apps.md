@@ -112,7 +112,7 @@ Woher weiß unser Paketmanager, welche App installiert werden soll wenn wir `obs
 - Welche Versionen der App gibt es?
 - Von wo kann ich die relevanten Dateien installieren?
 
-Dieses repository wird an einem zentralen Ort gespeichert und gepflegt. Von dort kann sich der Paketmanager dann die aktuellsten Informationen zu den Apps besorgen. Auf diese Weise funktionieren dann auch App Updates: Im repository ist die neueste Version der App hinterlegt. Der Paketmanager erkennt, dass unsere installierte Version älter ist, und kümmert sich dann um das update sobald wir `sudo dnf upgrade` durchführen.
+Dieses repository wird an einem zentralen Ort gespeichert und gepflegt. Von dort kann sich der Paketmanager dann die aktuellsten Informationen zu den Apps besorgen. Zusätzlich wird durch den Paketmanager eine lokale Version des Repositorys gespeichert. Um die neuesten Informationen zu Paketen zu erhalten, muss diese lokale Version aktualisiert werden. Bei den meisten Paketmanagern geschieht dies über den `update` Befehl. Bei dnf musst du dich darum allerdings nicht kümmern - hier geschieht diese Aktualisierung automatisch. 
 
 >[!TIP]- Exkurs: Repositorys
 > Vielleicht ist dir schon ein Problem aufgefallen: Was passiert, wenn ich eine App installieren möchte die nicht im Repository meines Paketmanagers aufgelistet ist?
@@ -121,7 +121,7 @@ Dieses repository wird an einem zentralen Ort gespeichert und gepflegt. Von dort
 > 
 > Wenn man nun einen anderen Paketmanager für die Installation von manchem Apps verwendet, verliert man natürlich teilweise einige der vorhin genannten Vorteile, da es nun nicht mehr eine zentrale Stelle zum managen Apps gibt.
 
-Wenn wir also `sudo dnf install obs-studio` ausführen, sucht der Paketmanager in seinen repositorys nach einer Anwendung namens "obs-studio". Mit den Informationen aus dem Repository kann die App dann entsprechend installiert werden.
+Wenn wir also `sudo dnf install obs-studio` ausführen, sucht der Paketmanager in seinen repositorys nach einem Paket namens "obs-studio". Mit den Informationen aus dem Repository kann das Paket dann installiert werden.
 
 ## Es gibt verschiedene Paketmanager
 
