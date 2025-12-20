@@ -132,3 +132,7 @@ Flatpak legt einen großen Fokus auf Kompatibilität. Das bedeutet: Wenn du eine
 ## Welchen Paketmanager sollte ich also nutzen?
 
 Primär solltest du probieren, den Paketmanager zu nutzen der Standardmäßig mit deinem System kommt: Für Fedora also `apt`. Die Pakete hier sind speziell für Fedora optimiert und getestet. Wenn du ein Paket benötigst welches hier nicht zu finden ist (was leider auch gar nicht so selten vorkommt), empfiehlt sich für dieses Paket Flatpak. So entsteht am Ende im Optimalfall ein Setup, in welchem der größte Teil deiner Pakete durch dnf gemanaged sind und ein kleiner Teil durch Flatpak. Wir erinnern uns: Ein großer Vorteil von Paketmanagern ist ja die Zentralisierung. Auf diese Weise erhalten wir so viel Zentralisierung wie möglich, um Dinge wie updates so einfach wie möglich zu machen.
+
+> [!NOTE]
+> Das Software Centre nutzt übrigens auch sowohl dnf wie auch Flatpak. Oben rechts können wir für eine bestimmte App auswählen, welcher Paketmanager für die jeweilige App genutzt werden soll - natürlich unter der Voraussetzung, dass das Paket bei mehreren Paketmanagern existiert.
+> ![](99%20assets/Pasted%20image%2020251220095956.png)
