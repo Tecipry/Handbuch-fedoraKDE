@@ -29,7 +29,7 @@ Applications  Desktop      Documents  Music     Public     Templa
 bin           Development  Downloads  Pictures  Scripting  Videos
 ```
 
-Ein Befehl besteht immer aus dem Namen und zugehörigen Parametern. Abhängig vom Befehl können diese Parameter optional sein. Bei dem `ls` Befehl können wir einen Pfad mitgeben, um zum Beispiel den Inhalt des Ordners `Documents` zu sehen:
+Ein Befehl besteht immer aus dem Namen und zugehörigen Parametern. Eigentlich sind Parameter nicht optional, doch unter Umständen existieren Standardwerte welche genutzt werden, wenn wir nichts eingeben.  Bei dem `ls` Befehl können wir einen Pfad mitgeben, um zum Beispiel den Inhalt des Ordners `Documents` zu sehen:
 ```sh
 ls ./Documents/
 ```
@@ -45,7 +45,7 @@ Lass uns in den `Documents` Ordner hinein navigieren. Hierfür nutzen wir den Be
 cd ./Documents/
 ```
 
-Wir haben eben schon fest
+Wir haben eben schon mit dem `ls` Befehl festgestellt, dass dieser Ordner leer ist, dies stimmt allerdings nicht ganz, denn standardmäßig zeigt uns der `ls` Befehl keine versteckten Dateien, Hierfür müssen wir eine sogenannte Flag nutzen. Ähnlich wie Optionen, gibt 
 
 
 ---
