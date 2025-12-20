@@ -107,6 +107,11 @@ Zum bearbeiten der Datei können wir den Editor `nano` nutzen. Dies ist ein mini
 nano datei.txt
 ```
 
+> [!NOTE] Hinweis
+> Wir hätten übrigens auch direkt `nano datei.txt` nutzen können. Wenn wir hier einen Pfad angeben welcher nicht existiert, dann erstellt nano diese Datei für uns.
+
+Nun können wir die Datei bearbeiten. Schreibe zum Beispiel "Hallo Welt!" in die erste Zeile. Am unteren Rand sehen wir einige Menüoptionen von nano. Diese werden durch Tastenkürzel genutzt
+
 ---
 # Befehlsübersicht
 
