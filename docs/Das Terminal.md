@@ -31,10 +31,15 @@ bin           Development  Downloads  Pictures  Scripting  Videos
 
 Ein Befehl besteht immer aus dem Namen und zugehörigen Parametern. Abhängig vom Befehl können diese Parameter optional sein. Bei dem `ls` Befehl können wir einen Pfad mitgeben, um zum Beispiel den Inhalt des Ordners `Documents` zu sehen:
 ```sh
-ls Documents/
+ls ./Documents/
 ```
 
 Sollte der Ordner leer sein, so gibt es logischerweise keine Ausgabe.
+
+Lass uns in den `Documents` Ordner hinein navigieren. Hierfür nutzen wir den Befehl `cd`, welcher für "change directory" steht.
+```sh
+cd ./Documents/
+```
 
 
 
