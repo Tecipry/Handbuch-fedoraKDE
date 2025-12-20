@@ -15,8 +15,8 @@ Historisch gesehen ist das Terminal also gar kein Teil des eigentlichen Computer
 Ein sehr wichtiger Grundbaustein von Linux lautet: **Alles ist eine Datei**.
 Und das ist wirklich wörtlich so gemeint. Alles was wir auf dem System machen, alles was irgendwie geschieht. Vom offensichtlichen, wie den `.txt` Dateien die du selber angelegt hast, über den Code welcher das Betriebssystem laufen lässt, bis zu den eingaben die ich gerade auf meiner Tastatur mache: Alles ist eine Datei.
 
-Exkurs: Tastatureingaben
-Öffne deinen Dateiexplorer und navigiere in den Ordner `/dev/input/`
+>[] Exkurs: Eingaben
+> Öffne deinen Dateiexplorer und navigiere in den Ordner `/dev/input/`. Hier siehst du verschiedene event Dateien, mit welchen die Eingabe von Daten durch angeschlossene Hardware geschieht. Wenn ich eine Taste auf meiner Tastatur drücke oder die Maus bewege, ändert sich hier eine Datei und das Betriebssystem kann darauf basierend die Eingabedaten weiter verarbeiten.
 
 Wenn wir mit dem Terminal arbeiten, geben wir sehr direkte Befehle an das System
 
