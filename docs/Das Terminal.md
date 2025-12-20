@@ -63,7 +63,7 @@ ls -a
 Das ist ein komischer Ergebnis. Was ist `.` und `..`? 
 
 Hier kommen wir zurück zu einem Konzept, welches ich am Anfang des Handbuches bereits kurz angesprochen hatte: [Alles ist eine Datei](Der%20grobe%20Aufbau%20deines%20Systems.md#Alles%20ist%20eine%20Datei). Und diese beiden Dateien sind für die Navigation wichtig: 
-- `.` beschreibt das aktuelle Verzeichnis. In den vorherigen Beispielen ist es sogar schon aufgetaucht, als wir `ls ./Documents/` ausgeführt haben. Tatsächlich wäre es aber an diesen Stellen gar nicht nötig gewesen. `ls Documents/` hätte dasselbe Ergebnis.
+- `.` beschreibt das aktuelle Verzeichnis. In den vorherigen Beispielen ist es sogar schon aufgetaucht, als wir `ls ./Documents/` ausgeführt haben. Tatsächlich wäre es aber an diesen Stellen gar nicht nötig gewesen. `ls Documents/` führt zum selben Ergebnis.
 - `..` beschreibt das überliegende Verzeichnis, das sogenannte "parent directory". Wir brauchen es also, um einen Pfad zum überliegenden Ordner zu erstellen zu können.
 
 Navigiere zurück in dein Home Verzeichnis, also einen Ordner "nach oben".
@@ -115,11 +115,61 @@ Nun können wir die Datei bearbeiten. Schreibe zum Beispiel "Hallo Welt!" in die
 
 Um zu speichern müssen wir die Option `Write Out` aktivieren. Dies tuen wir mit `strg + o`. Anschließend bestätigen wir mit `Enter`. Um dann nano zu verlassen nutzen wir `strg + x` für `Exit`.
 
+Nun haben wir eine Datei mit Inhalt. Um diesen Inhalt anzuzeigen, können wir natürlich einen Editor (wie nano) nutzen. Wenn aber nur kurz einen Blick auf den Inhalt werden möchte, ist der `cat` Befehl einfacher. Dies steht für "concatinate", weil der Inhalt der Datei quasi an den Output des Terminals "angehängt" wird.
+
+```sh
+cat datei.txt
+```
+
+> [!TIP]- Exkurs: Output
+> Tatsächlich gibt es mehrere "Outputs", sogenannte Streams, für verschiedene Zwecke. Eine Information des Systems kann über verschiedene Streams ausgegeben werden. So gibt es z.B. `stdout` ("standard out"), welchem wir gerade folgen - und dem man eigentlich immer folgt. Es gibt aber z.B. auch `stderr` ("standard error"), welcher speziell für Fehlermeldungen genutzt wird.
+> 
+> Denk zurück an die historische Entstehung des Terminals als Ein- und Ausgabegerät. Ein anderer Stream ist wie ein anderes Kabel welches wir an unser Terminal hängen. Und die Maschine gibt an diesem anderen Kabel eben andere Informationen aus.
+
+Nun ist natürlich noch interessant, wie wir diese Datei wieder löschen können. Hierfür wird der `rm` Befehl genutzt, welcher für "remove" steht.
+
+```sh
+rm datei.txt
+```
+
+Mit `rm` lassen sich auch Ordner löschen. Hierfür muss die Flag `-r` ("recursive") genutzt werden. Navigiere zurück in den Documents Ordner und lösche das Verzeichnis `einNeuerOrdner`.
+
+> [!TIP]- Lösung
+> ```sh
+> cd ..
+> rm einNeuerOrdner/
+> ```
+
+Mit dem `ls` Befehl können wir nun sehen, dass unser Documents Ordner nun wieder leer ist.
+```sh
+ls
+# (leere Ausgabe)
+```
+
+Nun ist unser Terminal stark zugemüllt mit dem ganzen Text unserer Befehle. Mit dem Befehl `clear` kannst du hier ein wenig aufräumen.
+
+```sh
+clear
+```
+
+
 ---
 # Befehlsübersicht
 
 ---
 ## Navigation und Dateien
+
+### `ls`
+
+```sh
+ls <Verzeichnis>
+```
+
+>	`-l`
+> 	
+
+- "list"
+- listet den Inhalt des angegebenen Verzeichnisses auf
 
 ---
 ## Paketmanager
