@@ -23,18 +23,21 @@ Alles was im Terminal geschieht, wird an einem bestimmten Ort im Dateisystem gem
 ## Navigation
 
 Um zu navigieren müssen wir natürlich wissen, welche Dateien existieren. Hierfür wird der Befehl `ls` genutzt, welcher für "list" steht. In den folgenden Beispielen ist immer in der ersten Zeile der ausgeführte Befehl und ggf. in den darauffolgenden Zeilen die Ausgabe zu sehen. Am besten probierst du die Befehle auch selber aus.
+
 ```sh
 ls  
 Applications  Desktop      Documents  Music     Public     Templates  
 bin           Development  Downloads  Pictures  Scripting  Videos
 ```
 
-Ein Befehl besteht immer aus dem Namen und zugehörigen Parametern. Eigentlich sind Parameter nicht optional, doch unter Umständen existieren Standardwerte welche genutzt werden, wenn wir nichts eingeben.  Bei dem `ls` Befehl können wir einen Pfad mitgeben, um zum Beispiel den Inhalt des Ordners `Documents` zu sehen:
+Ein Befehl besteht immer aus dem Namen und zugehörigen Parametern. Eigentlich sind Parameter nicht optional, doch unter Umständen existieren Standardwerte welche genutzt werden, wenn wir nichts eingeben. In diesem Fall ist der aktuelle Pfad, also das working directory, der Standardwert. Wir können allerdings auch andere Pfade als Parameter mitgeben, um zum Beispiel den Inhalt des Ordners `Documents` zu sehen:
+
 ```sh
 ls ./Documents/
 ```
 
-Wenn wir diesen Parameter auslassen (wie zuvor) nutzt der `cd` Befehl unser aktuelles working directory. Wie oben beschrieben, können wir dieses einfach ablesen. Aber natürlich gibt es auch einen Befehl hiervon: "print working directory", oder kurz `pwd`.
+Apropros working directory. Auch wenn wir dieses, wie oben beschrieben, sehr leicht ablesen können, existiert nat
+
 ```sh
 pwd
 /home/tristan
