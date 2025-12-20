@@ -106,4 +106,29 @@ Was sind also die Vorteile die uns der Paketmanager in dieser Situation bringt. 
 ---
 # Funktionsweise eines Paketmanagers
 
-#ToDo
+Woher weiß unser Paketmanager, welche App installiert werden soll wenn wir `obs-studio` eintippen? Hierfür ist beim Paketmanager ein "repository" hinterlegt. In diesem repository sind Informationen zu Apps hinterlegt, z.B.:
+- Wie heißt die App?
+- Eine Beschreibung der App
+- Welche Versionen der App gibt es?
+- Von wo kann ich die relevanten Dateien installieren?
+
+Dieses repository wird an einem zentralen Ort gespeichert und gepflegt. Von dort kann sich der Paketmanager dann die aktuellsten Informationen zu den Apps besorgen. Auf diese Weise funktionieren dann auch App Updates: Im repository ist die neueste Version der App hinterlegt. Der Paketmanager erkennt, dass unsere installierte Version älter ist, und kümmert sich dann um das update sobald wir `sudo dnf upgrade` durchführen.
+
+>[!TIP]- Exkurs: Repositorys
+> Vielleicht ist dir schon ein Problem aufgefallen: Was passiert, wenn ich eine App installieren möchte die nicht im Repository meines Paketmanagers aufgelistet ist?
+> 
+> Es ist möglich, andere Repositorys zum Paketmanager hinzuzufügen, und somit Apps aus diesen anderen Repositorys zu installieren. Hier muss aber natürlich immer darauf geachtet werden, dass das Repository vertrauenswürdig ist. Öfters hat man den Fall, dass eine App nur mit bestimmten Paketmanagern installiert werden kann. In diesem Fall muss dann also ein anderer Paketmanager verwendet werden.
+> 
+> Wenn man nun einen anderen Paketmanager für die Installation von manchem Apps verwendet, verliert man natürlich teilweise einige der vorhin genannten Vorteile, da es nun nicht mehr eine zentrale Stelle zum managen Apps gibt.
+
+Wenn wir also `sudo dnf install obs-studio` ausführen, sucht der Paketmanager in seinen repositorys nach einer Anwendung namens "obs-studio". Mit den Informationen aus dem Repository kann die App dann entsprechend installiert werden.
+
+## Es gibt verschiedene Paketmanager
+
+Natürlich gibt es nicht "den einen" Paketmanager. Verschiedene Distro Familien nutzen standardmäßig verschiedene Paketmanager. Auf Fedora-Systemen, also auch deinem Rechner, ist dies standardmäßig `dnf`. Auf Distros aus der Debian Familie ist dies `apt`. Außerdem gibt es zum Beispiel auch `flatpak`, ein Paketmanager welcher auf so gut wie allen Distros genutzt werden kann.
+
+Flatpak legt einen großen Fokus auf Kompatibilität. Das bedeutet: Wenn du eine App nicht über dnf installieren kannst, geht es sehr wahrscheinlich mit Flatpak. Aus technischer Sicht ist dies möglich, weil ein Flatpak (so wird eine App genantt, die über den Flatpak Paketmanager installiert wird) sehr stark vom System isoliert ist. Praktisch bedeutet dies, dass die Flatpak Version eine App oft deutlich mehr Speicherplatz benötigt, als die Version von anderen Paketmanagern. Unter Umständen funktionieren aufgrund der Isolation gewisse Funktionen der App nicht korrekt - ob dies ein Problem ist, hängt jedoch stark von der App ab. 
+
+## Welchen Paketmanager sollte ich also nutzen?
+
+Primär solltest du probieren, den Paketmanager zu nutzen der Standardmäßig mit deinem System kommt: Für Fedora also `apt`. Die Pakete hier sind speziell für Fedora optimiert und getestet. Wenn du ein Paket benötigst welches hier nicht zu finden ist (was leider auch gar nicht so selten vorkommt), empfiehlt sich für dieses Paket Flatpak. So entsteht am Ende im Optimalfall ein Setup, in welchem der größte Teil deiner Pakete durch dnf gemanaged sind und ein kleiner Teil durch Flatpak. Wir erinnern uns: Ein großer Vorteil von Paketmanagern ist ja die Zentralisierung. Auf diese Weise erhalten wir so viel Zentralisierung wie möglich, um Dinge wie updates so einfach wie möglich zu machen.
