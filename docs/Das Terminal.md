@@ -3,9 +3,7 @@
 ---
 # Geschichte
 
-Um zu verstehen was "Das Terminal" eigentlich ist, hilft es wenn wir uns ein wenig die Entstehungsgeschichte anschauen.
-
-Versetzen wir uns in die frühere Entwicklungszeit des Computers zurück. Wir befinden uns 
+Was ist "Das Terminal" eigentlich? Der Begriff stammt schon aus der frühen Geschichte des Computers. Damals war es eine große Herausforderung, mit dem System 
 
 ---
 # Befehlsübersicht
