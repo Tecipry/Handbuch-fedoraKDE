@@ -56,7 +56,8 @@ ls -a
 .  ..
 ```
 
-Das ist ein komischer Ergebnis. Was ist `.` und `..`? Hier kommen wir zurück zu einem Konzept, welches ich am Anfang des Handbuches bereits kurz angesprochen hatte
+Das ist ein komischer Ergebnis. Was ist `.` und `..`? Hier kommen wir zurück zu einem Konzept, welches ich am Anfang des Handbuches bereits kurz angesprochen hatte: [Alles ist eine Datei](Der%20grobe%20Aufbau%20deines%20Systems.md#Alles%20ist%20eine%20Datei). Und diese beiden Dateien sind für die Navigation wichtig: 
+- `.` beschreibt das aktuelle Verzeichnis. In den vorherigen Beispielen ist es sogar schon aufgetaucht, als wir `ls ./Documents/` ausgeführt haben: Der Pfad gibt hier an
 
 
 
