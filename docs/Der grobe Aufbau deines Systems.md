@@ -28,4 +28,4 @@ Und das ist wirklich wörtlich so gemeint. Alles was wir auf dem System machen, 
 > 
 > Wenn ich eine Taste auf meiner Tastatur drücke oder die Maus bewege, ändert sich hier eine Datei und das Betriebssystem kann darauf basierend die eingegebenen Daten weiter verarbeiten.
 
-Für die alltägliche Arbeit ist es natürlich nicht sonderlich interessant wie die Dinge im Hintergrund geschehen. An einigen Stellen in diesem Handbuch wird dieses Wissen aber beim Verständnis helfen. Vor allem wenn wir später zu technischeren Themen wie dem Terminal kommen
+Für die alltägliche Arbeit ist es natürlich nicht sonderlich interessant wie die Dinge im Hintergrund geschehen. An einigen Stellen in diesem Handbuch wird dieses Wissen aber beim Verständnis helfen. Vor allem wenn wir später zu technischeren Themen wie [dem Terminal](Das%20Terminal.md) kommen.

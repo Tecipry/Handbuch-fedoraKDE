@@ -1,4 +1,3 @@
-#ToDo 
 
 ---
 # Geschichte
@@ -23,7 +22,7 @@ Alles was im Terminal geschieht, wird an einem bestimmten Ort im Dateisystem gem
 
 ## Navigation
 
-
+Um zu navigieren müssen wir natürlich wissen, welche Dateien existieren. Hierfür wird der Befehl `ls` genutzt, welcher für "list" steht
 
 
 
