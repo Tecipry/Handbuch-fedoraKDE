@@ -16,7 +16,7 @@ Ein sehr wichtiger Grundbaustein von Linux lautet: **Alles ist eine Datei**.
 Und das ist wirklich wörtlich so gemeint. Alles was wir auf dem System machen, alles was irgendwie geschieht. Vom offensichtlichen, wie den `.txt` Dateien die du selber angelegt hast, über den Code welcher das Betriebssystem laufen lässt, bis zu den eingaben die ich gerade auf meiner Tastatur mache: Alles ist eine Datei.
 
 Exkurs: Tastatureingaben
-Mir fällt es immer noch schwer
+Öffne deinen Dateiexplorer und navigiere in den Ordner `/dev/input/`
 
 Wenn wir mit dem Terminal arbeiten, geben wir sehr direkte Befehle an das System
 
