@@ -22,14 +22,20 @@ Alles was im Terminal geschieht, wird an einem bestimmten Ort im Dateisystem gem
 
 ## Navigation
 
-Um zu navigieren müssen wir natürlich wissen, welche Dateien existieren. Hierfür wird der Befehl `ls` genutzt, welcher für "list" steht. In den folgenden Beispielen ist immer in der ersten Zeile der ausgeführte Befehl und dann in den darauffolgenden Zeilen die Ausgabe zu sehen. Am besten probierst du die Befehle auch selber aus.
+Um zu navigieren müssen wir natürlich wissen, welche Dateien existieren. Hierfür wird der Befehl `ls` genutzt, welcher für "list" steht. In den folgenden Beispielen ist immer in der ersten Zeile der ausgeführte Befehl und ggf. in den darauffolgenden Zeilen die Ausgabe zu sehen. Am besten probierst du die Befehle auch selber aus.
 ```sh
 ls  
 Applications  Desktop      Documents  Music     Public     Templates  
 bin           Development  Downloads  Pictures  Scripting  Videos
 ```
 
-Ein Befehl besteht immer aus dem Namen und zugehörigen Optionen. So können wir zum Beispiel bei dem 
+Ein Befehl besteht immer aus dem Namen und zugehörigen Parametern. Abhängig vom Befehl können diese Parameter optional sein. Bei dem `ls` Befehl können wir einen Pfad mitgeben, um zum Beispiel den Inhalt des Ordners `Documents` zu sehen:
+```sh
+ls Documents/
+```
+
+Sollte der Ordner leer sein, so gibt es logischerweise keine Ausgabe.
+
 
 
 ---
