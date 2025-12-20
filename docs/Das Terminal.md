@@ -77,10 +77,18 @@ cd ..
 ## Ordner und Dateien
 
 Jetzt können wir anfangen, mit Ordnern und Dateien zu arbeiten. Zum erstellen eines Ordners wird der Befehl `mkdir` genutzt, welcher für "make directory" steht. Erstelle einen Ordner in `Documents` damit wir dort ein wenig testen können.
+
 ```sh
 mkdir ./Documents/einNeuerOrdner/
 ```
 
+Nutze den `ls` Befehl, um in den eben erstellten Ordner zu navigieren.
+
+>[!TIP]- Lösung
+> ```sh
+> cd ./Documents/einNeuerOrdner/
+> ```
+> 
 ---
 # Befehlsübersicht
 
