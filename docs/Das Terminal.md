@@ -5,6 +5,8 @@
 
 Um zu verstehen was "Das Terminal" eigentlich ist, hilft es wenn wir uns ein wenig die Entstehungsgeschichte anschauen.
 
+Versetzen wir uns in die frühere Entwicklungszeit des Computers zurück. Wir befinden uns 
+
 ---
 # Befehlsübersicht
 
