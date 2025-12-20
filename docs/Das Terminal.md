@@ -165,11 +165,65 @@ clear
 ls <Verzeichnis>
 ```
 
->	`-l`
-> 	
+> `-a`: zeigt auch versteckte Dateien
+> `-l`: zeigt zusätzliche Infos wie Besitzer der Datei
 
 - "list"
 - listet den Inhalt des angegebenen Verzeichnisses auf
+
+### `cd`
+
+```sh
+cd <Verzeichnis>
+```
+
+- "change directory"
+- ändert das working directory zum angegeben Verzeichnis
+
+### `pwd`
+
+```sh
+pwd
+```
+
+- "print working directory"
+
+### `mkdir`
+
+```sh
+mkdir <Verzeichnisname>
+```
+> `-p`: "parents" -> Wenn mehrere Ordner im Pfad nicht existieren
+
+- "make directory"
+- erstellt einen Ordner
+
+### `touch`
+
+```sh
+touch <Dateiname>
+```
+
+- erstellt eine Datei
+
+### `cat`
+
+```sh
+cat <Dateiname>
+```
+
+- "concatinate"
+- schreibt den Inhalt einer Datei zu stdout
+
+### `rm`
+
+```sh
+rm <Pfad>
+```
+> `-r`: "recursive"  -> für Verzeichnisse
+
+- "remove"
+- Löscht eine Datei
 
 ---
 ## Paketmanager
@@ -192,7 +246,7 @@ flatpak install <package-name>
 
 ```sh
 sudo dnf upgrade
-flatpak update #sudo ist aufgrund der isolierten flatpak Pakete nicht nötig
+flatpak update
 ```
 
 - Aktualisiert alle installierten Pakete auf die neueste Version

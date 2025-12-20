@@ -21,6 +21,14 @@ Es gibt auch noch weitere LibreOffice Programme auf deinem System, welche sich n
   Ein Programm um mit mathematischen Ausdrücken, Funktionen, Graphen und weiterem zu arbeiten.
 
 ---
+# Templates
+
+Um in LibreOffice das aktuelle Dokument als Template zu speichern, kann `Save as Template` genutzt werden:
+![](99%20assets/Screenshot_20251220_165909.png)
+
+Es ist natürlich auch möglich, Templates für die allgemeine Dateierstellung zu definieren. Der Prozess hierfür ist für diese Stelle jedoch etwas zu viel. Aber: [Google ist dein Freund](Tipps%20bei%20Fragen%20und%20zur%20Fehleranalyse.md#Google%20ist%20dein%20Freund).
+
+---
 # Screenshots
 
 Auf Windows ist das snipping Tool eine sehr praktische Anwendung um schnell Screenshots von einem Bildschirmbereich zu machen. Auf deinem Rechner befindet sich eine ähnlich Anwendung: `Spectacle`
