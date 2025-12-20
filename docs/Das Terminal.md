@@ -63,7 +63,7 @@ ls -a
 Das ist ein komischer Ergebnis. Was ist `.` und `..`? 
 
 Hier kommen wir zurück zu einem Konzept, welches ich am Anfang des Handbuches bereits kurz angesprochen hatte: [Alles ist eine Datei](Der%20grobe%20Aufbau%20deines%20Systems.md#Alles%20ist%20eine%20Datei). Und diese beiden Dateien sind für die Navigation wichtig: 
-- `.` beschreibt das aktuelle Verzeichnis. In den vorherigen Beispielen ist es sogar schon aufgetaucht, als wir `ls ./Documents/` ausgeführt haben.
+- `.` beschreibt das aktuelle Verzeichnis. In den vorherigen Beispielen ist es sogar schon aufgetaucht, als wir `ls ./Documents/` ausgeführt haben. Tatsächlich wäre es aber an diesen Stellen gar nicht nötig gewesen. `ls Documents/` hätte dasselbe Ergebnis.
 - `..` beschreibt das überliegende Verzeichnis, das sogenannte "parent directory". Wir brauchen es also, um einen Pfad zum überliegenden Ordner zu erstellen zu können.
 
 Navigiere zurück in dein Home Verzeichnis, also einen Ordner "nach oben".
@@ -91,8 +91,12 @@ Nutze den `ls` Befehl, um in den eben erstellten Ordner zu navigieren.
 > 
 ---
 
-> [] Hinweis
-> Am Ende dieses Abschnitts habe ich alle beschriebenen Befehle (und ggf. auch einiges weiteres) gesammelt: [Befehlsübersicht](Das%20Terminal.md#Befehlsübersicht).
+
+> [!NOTE] Hinweis
+> Am Ende dieses Abschnitts habe ich alle beschriebenen (und auch einige nicht beschriebene) Befehle gesammelt: [Befehlsübersicht](Das%20Terminal.md#Befehlsübersicht).
+
+Lass uns als nächstes eine Datei erstellen
+
 
 ---
 # Befehlsübersicht
