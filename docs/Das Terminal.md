@@ -12,7 +12,15 @@ Historisch gesehen ist das Terminal also gar kein Teil des eigentlichen Computer
 ---
 # Grundprinzipien
 
-Wenn wir mit dem Terminal arbeiten, befinden wir uns immer an einer bestimmten Stelle im Dateisystem.
+Beim öffnen des Terminals sehen wir folgendes:
+![](99%20assets/Pasted%20image%2020251220133111.png)
+Hieraus können wir drei Dinge ablesen:
+1. `tristan` ist der Nutzer welcher gerade das Terminal nutzt
+2. `fedora` ist der Name des Rechners
+3. `~` ist der Pfad im Dateisystem an dem wir uns gerade befinden
+
+Alles was im Terminal geschieht, wird an ein
+
 
 ---
 # Befehlsübersicht
