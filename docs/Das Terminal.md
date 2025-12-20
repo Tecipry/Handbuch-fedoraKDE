@@ -36,7 +36,7 @@ Ein Befehl besteht immer aus dem Namen und zugehörigen Parametern. Eigentlich s
 ls ./Documents/
 ```
 
-Apropros working directory. Auch wenn wir dieses, wie oben beschrieben, sehr leicht ablesen können, existiert nat
+Apropros working directory. Auch wenn wir dieses, wie oben beschrieben, sehr leicht ablesen können, existiert natürlich ein Befehl um es anzuzeigen. Dieser lautet "print working directory", oder kurz `pwd`.
 
 ```sh
 pwd
@@ -44,11 +44,20 @@ pwd
 ```
 
 Lass uns in den `Documents` Ordner hinein navigieren. Hierfür nutzen wir den Befehl `cd`, welcher für "change directory" steht.
+
 ```sh
 cd ./Documents/
 ```
 
-Wir haben eben schon mit dem `ls` Befehl festgestellt, dass dieser Ordner leer ist, dies stimmt allerdings nicht ganz, denn standardmäßig zeigt uns der `ls` Befehl keine versteckten Dateien, Hierfür müssen wir eine sogenannte Flag nutzen. Ähnlich wie Optionen, gibt 
+Wir haben eben schon mit dem `ls` Befehl festgestellt, dass dieser Ordner leer ist. Dies stimmt allerdings nicht ganz, denn standardmäßig zeigt uns der `ls` Befehl keine versteckten Dateien, Hierfür müssen wir eine sogenannte Flag nutzen. Flags sind ähnlich wie Optionen, bloß dass sie optional sind. Über die Flag `-a` (für "all") können wir die versteckten Dateien in unserem Documents Ordner sehen.
+
+```sh
+ls -a  
+.  ..
+```
+
+Das ist ein komischer Ergebnis. Was ist `.` und `..`? Hier kommen wir zurück zu einem Konzept, welches ich am Anfang des Handbuches bereits kurz angesprochen hatte
+
 
 
 ---
