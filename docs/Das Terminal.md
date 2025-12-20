@@ -34,13 +34,18 @@ Ein Befehl besteht immer aus dem Namen und zugehörigen Parametern. Abhängig vo
 ls ./Documents/
 ```
 
-Sollte der Ordner leer sein, so gibt es logischerweise keine Ausgabe.
+Wenn wir diesen Parameter auslassen (wie zuvor) nutzt der `cd` Befehl unser aktuelles working directory. Wie oben beschrieben, können wir dieses einfach ablesen. Aber natürlich gibt es auch einen Befehl hiervon: "print working directory", oder kurz `pwd`.
+```sh
+pwd
+/home/tristan
+```
 
 Lass uns in den `Documents` Ordner hinein navigieren. Hierfür nutzen wir den Befehl `cd`, welcher für "change directory" steht.
 ```sh
 cd ./Documents/
 ```
 
+Wir haben eben schon fest
 
 
 ---
