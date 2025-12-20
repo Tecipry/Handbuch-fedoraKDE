@@ -1,9 +1,9 @@
 #ToDo 
 
 ---
-# Grundlagen
+# Geschichte
 
-
+Um zu verstehen was "Das Terminal" eigentlich ist, hilft es wenn wir uns ein wenig die Entstehungsgeschichte anschauen.
 
 ---
 # Befehlsübersicht
