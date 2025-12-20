@@ -20,6 +20,7 @@ Hieraus können wir drei Dinge ablesen:
 
 Alles was im Terminal geschieht, wird an einem bestimmten Ort im Dateisystem gemacht. Man spricht auch vom "working directory", also der Pfad bei welchem gerade gearbeitet wird. Dies ist natürlich vor allem relevant wenn wir mit Dateien arbeiten. Bevor wir dazu kommen, sollten wir uns jedoch kurz anschauen wie wir im Dateisystem navigieren können.
 
+---
 ## Navigation
 
 Um zu navigieren müssen wir natürlich wissen, welche Dateien existieren. Hierfür wird der Befehl `ls` genutzt, welcher für "list" steht. In den folgenden Beispielen ist immer in der ersten Zeile der ausgeführte Befehl und ggf. in den darauffolgenden Zeilen die Ausgabe zu sehen. Am besten probierst du die Befehle auch selber aus.
@@ -72,6 +73,13 @@ cd ..
 ```
 
 
+---
+## Ordner und Dateien
+
+Jetzt können wir anfangen, mit Ordnern und Dateien zu arbeiten. Zum erstellen eines Ordners wird der Befehl `mkdir` genutzt, welcher für "make directory" steht. Erstelle einen Ordner in `Documents` damit wir dort ein wenig testen können.
+```sh
+mkdir ./Documents/einNeuerOrdner/
+```
 
 ---
 # Befehlsübersicht
