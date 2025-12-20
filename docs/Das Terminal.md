@@ -82,7 +82,7 @@ Jetzt können wir anfangen, mit Ordnern und Dateien zu arbeiten. Zum erstellen e
 mkdir ./Documents/einNeuerOrdner/
 ```
 
-Nutze den `ls` Befehl, um in den eben erstellten Ordner zu navigieren.
+Nutze den `cd` Befehl, um in den eben erstellten Ordner zu navigieren.
 
 >[!TIP]- Lösung
 > ```sh
@@ -95,8 +95,17 @@ Nutze den `ls` Befehl, um in den eben erstellten Ordner zu navigieren.
 > [!NOTE] Hinweis
 > Am Ende dieses Abschnitts habe ich alle beschriebenen (und auch einige nicht beschriebene) Befehle gesammelt: [Befehlsübersicht](Das%20Terminal.md#Befehlsübersicht).
 
-Lass uns als nächstes eine Datei erstellen
+Lass uns als nächstes eine Datei erstellen. Hierfür wird der Befehl `touch` genutzt.
+```sh
+touch datei.txt
+```
 
+Hierbei müssen wir darauf achten, auch die Dateiendung mit anzugeben. Ansonsten haben wir eine Datei ohne Dateityp.
+
+Zum bearbeiten der Datei können wir den Editor `nano` nutzen. Dies ist ein minimalistischer Texteditor welcher direkt im Terminal funktioniert.
+```sh
+nano datei.txt
+```
 
 ---
 # Befehlsübersicht
