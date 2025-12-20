@@ -5,7 +5,7 @@
 
 Was ist "Das Terminal" eigentlich? Der Begriff stammt schon aus der frühen Geschichte des Computers. Damals war es eine große Herausforderung, mit dem System zu interagieren. Man hat ganze Räume welche mit einer riesigen Maschine gefüllt sind und irgendwie muss man nun Informationen in diese Maschine hinein- und herausbekommen.
 
-Hierfür wurde eine 
+Hierfür wurde eine Schnittstelle zur Maschine geschaffen, über welche entweder von der Maschine Daten ausgegeben werden konnten, oder Daten in die Maschine hinein gegeben werden konnten. Praktisch gesehen ist dies also einfach ein Datenkabel. Und am anderen Ende von diesem Kabel befand sich das Terminal. Hierbei handelte
 
 ---
 # Befehlsübersicht
