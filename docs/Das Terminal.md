@@ -7,7 +7,12 @@ Was ist "Das Terminal" eigentlich? Der Begriff stammt schon aus der frühen Gesc
 
 Hierfür wurde eine Schnittstelle zur Maschine geschaffen, über welche entweder von der Maschine Daten ausgegeben werden konnten, oder Daten in die Maschine hinein gegeben werden konnten. Praktisch gesehen ist dies also einfach ein Datenkabel. Und am anderen Ende von diesem Kabel befand sich das Terminal. Hierbei handelte es sich oft um einen einfachen Bildschirm zum anzeigen von Textzeilen und eine Tastatur. Daten welche vom Computer kamen wurden auf dem Bildschirm angezeigt und über die Tastatur konnten Daten an den Computer geschickt werden. 
 
-Historisch gesehen ist das Terminal also gar kein Teil des eigentlichen Computers, sondern nur ein angeschlossenes Gerät um mit diesem zu interagieren, wie eine Maus oder eine Tastatur.
+Historisch gesehen ist das Terminal also gar kein Teil des eigentlichen Computers, sondern nur ein angeschlossenes Gerät um mit diesem zu interagieren, wie eine Maus oder ein Drucker.
+
+---
+# Grundprinzipien
+
+Wenn wir mit dem Terminal arbeiten, geben wir sehr direkte Befehle an das System
 
 ---
 # Befehlsübersicht
