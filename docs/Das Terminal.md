@@ -49,20 +49,24 @@ Lass uns in den `Documents` Ordner hinein navigieren. Hierfür nutzen wir den Be
 cd ./Documents/
 ```
 
-Wir sehen, dass wir uns an einem neuen Ort im Dateisystem befinden.
+Wir sehen, dass wir uns an einem neuen Ort im Dateisystem befinden:
+![](99%20assets/Pasted%20image%2020251220142146.png)
 
-Wir haben eben schon mit dem `ls` Befehl festgestellt, dass dieser Ordner leer ist. Dies stimmt allerdings nicht ganz, denn standardmäßig zeigt uns der `ls` Befehl keine versteckten Dateien, Hierfür müssen wir eine sogenannte Flag nutzen. Flags sind ähnlich wie Optionen, bloß dass sie optional sind. Über die Flag `-a` (für "all") können wir die versteckten Dateien in unserem Documents Ordner sehen.
+Wir haben eben schon mit dem `ls` Befehl festgestellt, dass dieser Ordner leer ist. Dies stimmt allerdings nicht ganz, den standardmäßig zeigt uns der `ls` Befehl keine versteckten Dateien, Hierfür müssen wir eine sogenannte Flag nutzen. Flags sind ähnlich wie Optionen, bloß dass sie optional sind. Über die Flag `-a` (für "all") können wir die versteckten Dateien in unserem `Documents` Ordner sehen.
 
 ```sh
 ls -a  
 .  ..
 ```
 
-Das ist ein komischer Ergebnis. Was ist `.` und `..`? Hier kommen wir zurück zu einem Konzept, welches ich am Anfang des Handbuches bereits kurz angesprochen hatte: [Alles ist eine Datei](Der%20grobe%20Aufbau%20deines%20Systems.md#Alles%20ist%20eine%20Datei). Und diese beiden Dateien sind für die Navigation wichtig: 
-- `.` beschreibt das aktuelle Verzeichnis. In den vorherigen Beispielen ist es sogar schon aufgetaucht, als wir `ls ./Documents/` ausgeführt haben.
-- `..` beschreibt das überliegende Verzeichnis, das sogenannte "parent directory". Wir brauchen es, wenn wir zurück in unseren Home Ordner navigieren wollen. Lass uns dies im nächsten Schritt gleich einmal machen.
+Das ist ein komischer Ergebnis. Was ist `.` und `..`? 
 
-Navigiere zurück in dein Home Verzeichnis.
+Hier kommen wir zurück zu einem Konzept, welches ich am Anfang des Handbuches bereits kurz angesprochen hatte: [Alles ist eine Datei](Der%20grobe%20Aufbau%20deines%20Systems.md#Alles%20ist%20eine%20Datei). Und diese beiden Dateien sind für die Navigation wichtig: 
+- `.` beschreibt das aktuelle Verzeichnis. In den vorherigen Beispielen ist es sogar schon aufgetaucht, als wir `ls ./Documents/` ausgeführt haben.
+- `..` beschreibt das überliegende Verzeichnis, das sogenannte "parent directory". Wir brauchen es also, um einen Pfad zum überliegenden Ordner zu erstellen zu können.
+
+Navigiere zurück in dein Home Verzeichnis, also einen Ordner "nach oben".
+
 ```sh
 cd ..
 ```
