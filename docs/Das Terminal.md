@@ -110,7 +110,10 @@ nano datei.txt
 > [!NOTE] Hinweis
 > Wir hätten übrigens auch direkt `nano datei.txt` nutzen können. Wenn wir hier einen Pfad angeben welcher nicht existiert, dann erstellt nano diese Datei für uns.
 
-Nun können wir die Datei bearbeiten. Schreibe zum Beispiel "Hallo Welt!" in die erste Zeile. Am unteren Rand sehen wir einige Menüoptionen von nano. Diese werden durch Tastenkürzel genutzt
+Nun können wir die Datei bearbeiten. Schreibe zum Beispiel "Hallo Welt!" in die erste Zeile. Am unteren Rand sehen wir einige Menüoptionen von nano. Diese werden durch Tastenkürzel genutzt. 
+![](99%20assets/Pasted%20image%2020251220144939.png)
+
+Um zu speichern müssen wir die Option `Write Out` aktivieren. Dies tuen wir mit `strg + o`. Anschließend bestätigen wir mit `Enter`. Um dann nano zu verlassen nutzen wir `strg + x` für `Exit`.
 
 ---
 # Befehlsübersicht
