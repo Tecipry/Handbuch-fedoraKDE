@@ -19,14 +19,20 @@ Hieraus können wir drei Dinge ablesen:
 2. `fedora` ist der Name des Rechners
 3. `~` ist der Pfad im Dateisystem an dem wir uns gerade befinden. Die Tilde (`~`) ist dabei ein spezielles Zeichen für das `Home` Verzeichnis des Nutzers. Der eigentliche Pfad lautet hier also `/home/tristan`.
 
-Alles was im Terminal geschieht, wird an einem bestimmten Ort im Dateisystem gemacht. Man spricht auch vom "working directory", also der Pfad bei welchem gerade gearbeitet wird. Dies ist vor allem rele
+Alles was im Terminal geschieht, wird an einem bestimmten Ort im Dateisystem gemacht. Man spricht auch vom "working directory", also der Pfad bei welchem gerade gearbeitet wird. Dies ist natürlich vor allem relevant wenn wir mit Dateien arbeiten. Bevor wir dazu kommen, sollten wir uns jedoch kurz anschauen wie wir im Dateisystem navigieren können.
+
+## Navigation
+
+
+
+
 
 
 ---
 # Befehlsübersicht
 
 ---
-## Allgemein
+## Navigation und Dateien
 
 ---
 ## Paketmanager
