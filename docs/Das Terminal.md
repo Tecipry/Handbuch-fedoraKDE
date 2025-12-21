@@ -271,7 +271,3 @@ flatpak uninstall <package-name>
 
 - Deinstalliert ein Paket und seine Abhängigkeiten
 
-
-
-# Test
-hier habe ich etwas hinzugefügt
