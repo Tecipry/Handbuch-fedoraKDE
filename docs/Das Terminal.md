@@ -21,9 +21,20 @@ Hieraus können wir drei Dinge ablesen:
 Alles was im Terminal geschieht, wird an einem bestimmten Ort im Dateisystem gemacht. Man spricht auch vom "working directory", also der Pfad bei welchem gerade gearbeitet wird. Dies ist natürlich vor allem relevant wenn wir mit Dateien arbeiten. Bevor wir dazu kommen, sollten wir uns jedoch kurz anschauen wie wir im Dateisystem navigieren können.
 
 ---
+## Pfade im Dateisystem
+
+Fangen wir an, indem wir uns kurz anschauen was mit einem "Pfad" gemeint ist. Grundsätzlich beschreibt ein Pfad immer einen Weg, in zu einem Ort im Dateisystem. Hierbei können wir zwischen zwei Arten unterscheiden:
+1. **absoluter Pfad**
+	Ein absoluter Pfad beginnt immer im Ursprung des Dateisystems. Unter Windows ist dies in den meisten Fällen `C:`. Unter Linux ist das immer `/`. Der absolute Pfad zum `Documents` Ordner des Benutzers "admin" lautet: `/home/admin/Documents/`.
+2. **relativer Pfad**
+	Ein relativer Pfad beginnt an der aktuellen Position und beschreibt den Weg von diesem Punkt aus. Wenn wir uns also im Nutzerordner von admin befinden (also in `/home/admin/`), dann lautet der relative Pfad zum `Documents` Ordner `Documents/`. Oft beginnen relative Pfade auch mit `./`. Auf die Bedeutung hiervon gehe ich ein paar Absätze weiter unten nochmal ein.
+
+Das Ziel eines Pfades kann dabei entweder ein Ordner (z.B. `/home/admin/Documents/`) oder eine Datei (z.B. `/home/admin/Documents/wichtigesDokument.txt`) sein. Ordner- und Dateinamen in einem Pfad sind case-sensitive. Das bedeutet: `Documents` und `documents` sind zwei unterschiedliche Ordner. Dementsprechend muss hier auf die richtige Schreibweise geachtet werden. Mit `tab` können die Namen auch vervollständigt werden
+
+---
 ## Navigation
 
-Um zu navigieren müssen wir natürlich wissen, welche Dateien existieren. Hierfür wird der Befehl `ls` genutzt, welcher für "list" steht. In den folgenden Beispielen ist immer in der ersten Zeile der ausgeführte Befehl und ggf. in den darauffolgenden Zeilen die Ausgabe zu sehen. Am besten probierst du die Befehle auch selber aus.
+Um navigieren zu können, müssen wir natürlich erstmal wissen welche Dateien existieren. Hierfür wird der Befehl `ls` genutzt, welcher für "list" steht. In den folgenden Beispielen ist immer in der ersten Zeile der ausgeführte Befehl und ggf. in den darauffolgenden Zeilen die Ausgabe zu sehen. Am besten probierst du die Befehle auch selber aus.
 
 ```sh
 ls  
@@ -31,10 +42,10 @@ Applications  Desktop      Documents  Music     Public     Templa
 bin           Development  Downloads  Pictures  Scripting  Videos
 ```
 
-Ein Befehl besteht immer aus dem Namen und zugehörigen Parametern. Eigentlich sind Parameter nicht optional, doch unter Umständen existieren Standardwerte welche genutzt werden, wenn wir nichts eingeben. In diesem Fall ist der aktuelle Pfad, also das working directory, der Standardwert. Wir können allerdings auch andere Pfade als Parameter mitgeben, um zum Beispiel den Inhalt des Ordners `Documents` zu sehen:
+Ein Befehl besteht immer aus dem Namen und zugehörigen Parametern. Eigentlich sind Parameter nicht optional, doch unter Umständen existieren Standardwerte welche genutzt werden, wenn wir nichts eingeben. In  das working directory, also der Pfad an dem wir uns gerade befinden, der Standardwert. Wir können allerdings auch andere Pfade als Parameter mitgeben, um zum Beispiel den Inhalt des Ordners `Documents` zu sehen:
 
 ```sh
-ls ./Documents/
+ls Documents/
 ```
 
 Apropros working directory. Auch wenn wir dieses, wie oben beschrieben, sehr leicht ablesen können, existiert natürlich ein Befehl um es anzuzeigen. Dieser lautet "print working directory", oder kurz `pwd`.
@@ -47,7 +58,7 @@ pwd
 Lass uns in den `Documents` Ordner hinein navigieren. Hierfür nutzen wir den Befehl `cd`, welcher für "change directory" steht.
 
 ```sh
-cd ./Documents/
+cd Documents/
 ```
 
 Wir sehen, dass wir uns an einem neuen Ort im Dateisystem befinden:
@@ -63,7 +74,7 @@ ls -a
 Das ist ein komischer Ergebnis. Was ist `.` und `..`? 
 
 Hier kommen wir zurück zu einem Konzept, welches ich am Anfang des Handbuches bereits kurz angesprochen hatte: [Alles ist eine Datei](Der%20grobe%20Aufbau%20deines%20Systems.md#Alles%20ist%20eine%20Datei). Und diese beiden Dateien sind für die Navigation wichtig: 
-- `.` beschreibt das aktuelle Verzeichnis. In den vorherigen Beispielen ist es sogar schon aufgetaucht, als wir `ls ./Documents/` ausgeführt haben. Tatsächlich wäre es aber an diesen Stellen gar nicht nötig gewesen. `ls Documents/` führt zum selben Ergebnis.
+- `.` beschreibt das aktuelle Verzeichnis und ist somit für relative Pfade sehr praktisch. In den vorherigen Beispielen habe ich ja bereits relative Pfade genutzt, z.B. mit `Documents/`. Wenn wir dies expliziter als relativen Pfad angeben wollen, können wir auch `./Documents/` schreiben. In unseren Beispielen macht dies allerdings keinen Unterschied.
 - `..` beschreibt das überliegende Verzeichnis, das sogenannte "parent directory". Wir brauchen es also, um einen Pfad zum überliegenden Ordner zu erstellen zu können.
 
 Navigiere zurück in dein Home Verzeichnis, also einen Ordner "nach oben".
