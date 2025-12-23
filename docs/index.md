@@ -25,6 +25,9 @@ Du kannst die Sidebar auf der linken Seite zur Navigation nutzen. Im groben sind
 	- [Das Terminal](Guide/Das%20Terminal.md)
 
 
-# weitere Links
+# Links
 
-weitere hilfreiche Ressourcen, welche wahrscheinlich deutlich durchdachter sind als dieses Handbuch:
+weitere hilfreiche Ressourcen um Linux und zusammenhängende Themen zu lernen:
+- [Linux Journey](https://labex.io/linuxjourney)
+- [Linux Handbook](https://linuxhandbook.com/)
+- [Linux Guide by mikeroyal](https://github.com/mikeroyal/Linux-Guide)
