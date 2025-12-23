@@ -8,24 +8,24 @@ Da ich meinen eigenen Rechner auf englisch nutze, werde ich auch Dinge wie die N
 Ist der Rechner an? Wunderbar. 
 Du fängst am besten an, indem du selber experimentierst. Versuche eine Datei zu erstellen, schau dir an was du im Dateisystem findest, probier dich in den Einstellungen herum, oder schau wie du eine App installieren kannst. Am besten lernt es sich beim probieren, also sei mutig und probier die Dinge einfach Mal aus. Und wenn du das gemacht hast, kannst du hierher zurückkommen.
 
-In der Datei [Begrifflichkeiten](Begrifflichkeiten.md) habe ich eine kleine Übersicht über verschiedene Begriffe erstellt. Alternativ eignet sich Google auch sehr gut.
+In der Datei [Begrifflichkeiten](Basics/Begrifflichkeiten.md) habe ich eine kleine Übersicht über verschiedene Begriffe erstellt. Alternativ eignet sich Google auch sehr gut.
 
 ---
 # Inhalt von diesem Guide
 
-### [Der grobe Aufbau deines Systems](Der%20grobe%20Aufbau%20deines%20Systems.md)
+### [Der grobe Aufbau deines Systems](Guide/Der%20grobe%20Aufbau%20deines%20Systems.md)
 
-### [Begrifflichkeiten](Begrifflichkeiten.md)
+### [Begrifflichkeiten](Basics/Begrifflichkeiten.md)
 
-### [Tipps bei Fragen und zur Fehleranalyse](Tipps%20bei%20Fragen%20und%20zur%20Fehleranalyse.md) 
+### [Tipps bei Fragen und zur Fehleranalyse](Basics/Tipps%20bei%20Fragen%20und%20zur%20Fehleranalyse.md) 
 
-### [Die Installation von Apps](Die%20Installation%20von%20Apps.md)
+### [Die Installation von Apps](Guide/Die%20Installation%20von%20Apps.md)
 
-### [Alltägliche Tätigkeiten mit Fedora](Alltägliche%20Tätigkeiten%20mit%20Fedora.md)
+### [Alltägliche Tätigkeiten mit Fedora](Guide/Alltägliche%20Tätigkeiten%20mit%20Fedora.md)
 
-### [praktische Dinge und kleine Hacks](praktische%20Dinge%20und%20kleine%20Hacks.md)
+### [praktische Dinge und kleine Hacks](Basics/praktische%20Dinge%20und%20kleine%20Hacks.md)
 
-### [Das Terminal](Das%20Terminal.md)
+### [Das Terminal](Guide/Das%20Terminal.md)
 
 # weitere Links
 

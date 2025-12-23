@@ -21,9 +21,9 @@ Hier können nun Panels und Widgets hinzugefügt werden, welche sich sehr stark 
 
 Vor allem wenn man gerade in die Welt von Linux einsteigt kann das Terminal sehr abschreckend sein. Doch nachdem man ein paar Basics verstanden hat, ist es gar nicht mehr so viel. Und sollte man dann anfangen sich dann doch mit dem Terminal anzufreunden, so bietet es einem unglaubliche Möglichkeiten. 
 
-Meine Erklärung zur [Installation von Apps mit einem Paketmanager](Die%20Installation%20von%20Apps.md#Installation%20und%20Deinstallation%20einer%20App%20mit%20dem%20Paketmanager%20`apt`) ist hierfür ein gutes Beispiel denke ich. 
+Meine Erklärung zur [Installation von Apps mit einem Paketmanager](../Guide/Die%20Installation%20von%20Apps.md#Installation%20und%20Deinstallation%20einer%20App%20mit%20dem%20Paketmanager%20`apt`) ist hierfür ein gutes Beispiel denke ich. 
 
-Die wichtigsten Grundlagen zum Terminal habe ich im Kapitel [Das Terminal](Das%20Terminal.md) aufgeschrieben.
+Die wichtigsten Grundlagen zum Terminal habe ich im Kapitel [Das Terminal](../Guide/Das%20Terminal.md) aufgeschrieben.
 
 ---
 # Shortcuts

@@ -39,4 +39,4 @@ Auf verschiedenen Distros werden standardmäßig unterschiedliche Paketmanager g
 - `dnf` in der Fedora Familie
 - `apt` in der Debian Familie
 
-Natürlich kann der Paketmanager auf einem System geändert werden - und genauso ist es auch möglich mehrere Paketmanager parallel zu nutzen. Einer der großen Vorteile, nämlich zentralisiertes Management von Anwendungen und deren Abhängigkeiten, geht hierdurch jedoch verloren. Deshalb sollte dies tendenziell vermieden werden. Natürlich gibt es auch hierzu Ausnahmen. Genaueres ist im Kapitel [Die Installation von Apps](Die%20Installation%20von%20Apps.md) zu finden.
+Natürlich kann der Paketmanager auf einem System geändert werden - und genauso ist es auch möglich mehrere Paketmanager parallel zu nutzen. Einer der großen Vorteile, nämlich zentralisiertes Management von Anwendungen und deren Abhängigkeiten, geht hierdurch jedoch verloren. Deshalb sollte dies tendenziell vermieden werden. Natürlich gibt es auch hierzu Ausnahmen. Genaueres ist im Kapitel [Die Installation von Apps](../Guide/Die%20Installation%20von%20Apps.md) zu finden.
