@@ -14,14 +14,14 @@ In der Datei [Begrifflichkeiten](Basics/Begrifflichkeiten.md) habe ich eine klei
 # Inhalt von diesem Guide
 
 Du kannst die Sidebar auf der linken Seite zur Navigation nutzen. Im groben sind die Abschnitte dieses Guides in zwei Kategorien aufgeteilt: `Basics` und `Guide`. Hier finden sich die folgenden Seiten:
-- `Basics`:
+- `Basics`:  
 	-  [Begrifflichkeiten](Basics/Begrifflichkeiten.md)
 	- [Tipps bei Fragen und zur Fehleranalyse](Basics/Tipps%20bei%20Fragen%20und%20zur%20Fehleranalyse.md) 
-- `Guide`:
+- `Guide`:  
 	- [Der grobe Aufbau deines Systems](Guide/Der%20grobe%20Aufbau%20deines%20Systems.md)
 	- [Alltägliche Tätigkeiten mit Fedora](Guide/Alltägliche%20Tätigkeiten%20mit%20Fedora.md)
 	- [Die Installation von Apps](Guide/Die%20Installation%20von%20Apps.md)
-	- [praktische Dinge und kleine Hacks](Basics/praktische%20Dinge%20und%20kleine%20Hacks.md)
+	- [praktische Dinge und kleine Hacks](Guide/praktische%20Dinge%20und%20kleine%20Hacks.md)
 	- [Das Terminal](Guide/Das%20Terminal.md)
 
 
