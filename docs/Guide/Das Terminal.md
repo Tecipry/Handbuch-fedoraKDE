@@ -14,6 +14,7 @@ Historisch gesehen ist das Terminal also gar kein Teil des eigentlichen Computer
 Beim öffnen des Terminals sehen wir folgendes:
 ![](99%20assets/Pasted%20image%2020251220133111.png)
 Hieraus können wir drei Dinge ablesen:
+
 1. `tristan` ist der Nutzer welcher gerade das Terminal nutzt
 2. `fedora` ist der Name des Rechners
 3. `~` ist der Pfad im Dateisystem an dem wir uns gerade befinden. Die Tilde (`~`) ist dabei ein spezielles Zeichen für das `Home` Verzeichnis des Nutzers. Der eigentliche Pfad lautet hier also `/home/tristan`.
@@ -206,6 +207,7 @@ pwd
 ```sh
 mkdir <Verzeichnisname>
 ```
+
 > `-p`: "parents" -> Wenn mehrere Ordner im Pfad nicht existieren
 
 - "make directory"
@@ -233,6 +235,7 @@ cat <Dateiname>
 ```sh
 rm <Pfad>
 ```
+
 > `-r`: "recursive"  -> für Verzeichnisse
 
 - "remove"

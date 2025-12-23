@@ -14,6 +14,7 @@ Aber was bringt dir das? Lass uns einen Blick auf die Installation und anschlie�
 
 ## Installation und Deinstallation einer App unter Windows
 
+
 1. Beschaffung der Installationsdatei
 
 	Zuerst benötigen wir unsere Installationsdatei. Hierzu suchen wir online zum Beispiel nach "OBS download" und stoßen auf die Website [obsproject.com](https://obsproject.com). Unter "Download" bekommen wir eine `.exe` Installationsdatei. Bei anderen Programmen könnte dies jedoch auch eine `.msi` Datei sein, oder etwas völlig anderes.
@@ -55,6 +56,7 @@ Aber was bringt dir das? Lass uns einen Blick auf die Installation und anschlie�
 
 ## Installation und Deinstallation einer App mit dem Paketmanager `apt`
 
+
 1. Installation der App
    
 	Öffne ein Terminal und führe dort folgenden Befehl aus:
@@ -64,11 +66,11 @@ Aber was bringt dir das? Lass uns einen Blick auf die Installation und anschlie�
 	Da der Befehl mit `sudo` ausgeführt wird, müssen wir evtl. unser Passwort eingeben. 
 	Kurz danach wird uns eine Liste angezeigt, welche wir durch das eingeben von `y` für `yes` sowie einem `Enter` bestätigen müssen.
 
-1. Starten der App
+2. Starten der App
    
 	Die App kann nun normal gestartet und genutzt werden. Wie zuvor auch, werden wir die App im nächsten Schritt allerdings wieder deinstallieren.
 
-1. Deinstallation der App
+3. Deinstallation der App
    
 	Führe für die Deinstallation folgenden Befehl im Terminal aus:
 	```sh
@@ -79,6 +81,7 @@ Aber was bringt dir das? Lass uns einen Blick auf die Installation und anschlie�
 ## Vergleich der beiden Abläufe
 
 Was sind also die Vorteile die uns der Paketmanager in dieser Situation bringt. Auch wenn aus diesem Beispiele hoffentlich einige sehr offensichtliche Punkte ersichtlich sind, möchte ich diese, sowie auch einige weitere, hier einmal auflisten:
+
 - Einfache Installation und Deinstallation
   
 	Ich denke die vorherigen Kapitel belegen diese Aussage ausreichend.
@@ -107,6 +110,7 @@ Was sind also die Vorteile die uns der Paketmanager in dieser Situation bringt. 
 # Funktionsweise eines Paketmanagers
 
 Woher weiß unser Paketmanager, welche App installiert werden soll wenn wir `obs-studio` eintippen? Hierfür ist beim Paketmanager ein "repository" hinterlegt. In diesem repository sind Informationen zu Apps hinterlegt, z.B.:
+
 - Wie heißt die App?
 - Eine Beschreibung der App
 - Welche Versionen der App gibt es?

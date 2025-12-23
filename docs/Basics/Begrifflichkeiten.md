@@ -11,8 +11,10 @@ Der Kern eines Betriebssystems, der die grundlegendsten Funktionen übernimmt we
 Kurz für "Distribution", oft auch "Linux-Distro" oder ähnliches.
 Eine Distro eine Auswahl aufeinander abgestimmter Softwarepakete mit dem Linux-Kernel im Zentrum. Viele Distros lassen sich in "Familien" einordnen, da sie aufeinander basieren oder ähnliche Software nutzen. Mehr Infos auf Wikipedia ([wikipedia](https://de.wikipedia.org/wiki/Linux-Distribution)).
 Bekannte Distros sind unter anderem:
+
 - `Debian` 
 	Auf Debian basiert eine große Familie an weiteren Distros wie `ubuntu` (auf welchem wiederum dutzende Distros basieren), `Kali Linux` oder `Raspberry Pi OS`.
+	
 - `Linux Mint`
 - `Fedora`
 	Zu dieser Familie, entwickelt vom fedoraproject ([fedoraproject](https://www.fedoraproject.org/)), gehören Distros wie `Fedora Workstation`, `Fedora Server`, oder `Fedora KDE` - oder wenn wir ganz korrekt sein wollen: `Fedora KDE Plasma Desktop`.
@@ -36,6 +38,7 @@ Vereinfacht gesagt ist es eine Anwendung, also eine App für das Gerät. Dazu ge
 Ein Paketmanager kümmert sich um installierte Pakete auf dem System. Dazu gehören offensichtliche Aufgaben wie die Installation oder das Updaten. Allerdings auch deutlich komplexere Themen wie das automatische managen von Abhängigkeiten. So gibt es eine zentrale Stelle - den Paketmanager - um sich um alle installierten Dinge zu kümmern.
 
 Auf verschiedenen Distros werden standardmäßig unterschiedliche Paketmanager genutzt. Dies sind zum Beispiel:
+
 - `dnf` in der Fedora Familie
 - `apt` in der Debian Familie
 

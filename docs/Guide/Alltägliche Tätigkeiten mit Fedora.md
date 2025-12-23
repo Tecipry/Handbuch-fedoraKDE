@@ -13,6 +13,7 @@ Auf Windows sind wir die Office Suite mit Programmen wie Word, Excel, und PowerP
 | Powerpoint                | LibreOffice Impress<br>![](99%20assets/Pasted%20image%2020251214105116.png) |
 
 Es gibt auch noch weitere LibreOffice Programme auf deinem System, welche sich nicht direkt mit einem Microsoft Produkt vergleichen lassen:
+
 - LibreOffice Draw
   ![](99%20assets/Pasted%20image%2020251214105545.png)
   Wie der Name vermuten lässt handelt es sich hier um ein Programm zum zeichnen
