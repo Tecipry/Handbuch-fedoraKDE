@@ -13,37 +13,18 @@ In der Datei [Begrifflichkeiten](Basics/Begrifflichkeiten.md) habe ich eine klei
 ---
 # Inhalt von diesem Guide
 
-### [Der grobe Aufbau deines Systems](Guide/Der%20grobe%20Aufbau%20deines%20Systems.md)
+Du kannst die Sidebar auf der linken Seite zur Navigation nutzen. Im groben sind die Abschnitte dieses Guides in zwei Kategorien aufgeteilt: `Basics` und `Guide`. Hier finden sich die folgenden Seiten:
+- `Basics`:
+	-  [Begrifflichkeiten](Basics/Begrifflichkeiten.md)
+	- [Tipps bei Fragen und zur Fehleranalyse](Basics/Tipps%20bei%20Fragen%20und%20zur%20Fehleranalyse.md) 
+- `Guide`:
+	- [Der grobe Aufbau deines Systems](Guide/Der%20grobe%20Aufbau%20deines%20Systems.md)
+	- [Alltägliche Tätigkeiten mit Fedora](Guide/Alltägliche%20Tätigkeiten%20mit%20Fedora.md)
+	- [Die Installation von Apps](Guide/Die%20Installation%20von%20Apps.md)
+	- [praktische Dinge und kleine Hacks](Basics/praktische%20Dinge%20und%20kleine%20Hacks.md)
+	- [Das Terminal](Guide/Das%20Terminal.md)
 
-### [Begrifflichkeiten](Basics/Begrifflichkeiten.md)
-
-### [Tipps bei Fragen und zur Fehleranalyse](Basics/Tipps%20bei%20Fragen%20und%20zur%20Fehleranalyse.md) 
-
-### [Die Installation von Apps](Guide/Die%20Installation%20von%20Apps.md)
-
-### [Alltägliche Tätigkeiten mit Fedora](Guide/Alltägliche%20Tätigkeiten%20mit%20Fedora.md)
-
-### [praktische Dinge und kleine Hacks](Basics/praktische%20Dinge%20und%20kleine%20Hacks.md)
-
-### [Das Terminal](Guide/Das%20Terminal.md)
 
 # weitere Links
 
-(callout types)
-
-> [!NOTE]  
-> Highlights information that users should take into account, even when skimming.
-
-> [!TIP]
-> Optional information to help a user be more successful.
-
-> [!IMPORTANT]  
-> Crucial information necessary for users to succeed.
-
-> [!WARNING]  
-> Critical content demanding immediate user attention due to potential risks.
-
-> [!CAUTION]
-> Negative potential consequences of an action.
-
-
+weitere hilfreiche Ressourcen, welche wahrscheinlich deutlich durchdachter sind als dieses Handbuch:
