@@ -24,6 +24,7 @@ Alles was im Terminal geschieht, wird an einem bestimmten Ort im Dateisystem gem
 ## Pfade im Dateisystem
 
 Fangen wir an, indem wir uns kurz anschauen was mit einem "Pfad" gemeint ist. Grundsätzlich beschreibt ein Pfad immer einen Weg, in zu einem Ort im Dateisystem. Hierbei können wir zwischen zwei Arten unterscheiden:
+
 1. **absoluter Pfad**
 	Ein absoluter Pfad beginnt immer im Ursprung des Dateisystems. Unter Windows ist dies in den meisten Fällen `C:`. Unter Linux ist das immer `/`. Der absolute Pfad zum `Documents` Ordner des Benutzers "admin" lautet: `/home/admin/Documents/`.
 2. **relativer Pfad**
@@ -74,6 +75,7 @@ ls -a
 Das ist ein komischer Ergebnis. Was ist `.` und `..`? 
 
 Hier kommen wir zurück zu einem Konzept, welches ich am Anfang des Handbuches bereits kurz angesprochen hatte: [Alles ist eine Datei](Der%20grobe%20Aufbau%20deines%20Systems.md#Alles%20ist%20eine%20Datei). Und diese beiden Dateien sind für die Navigation wichtig: 
+
 - `.` beschreibt das aktuelle Verzeichnis und ist somit für relative Pfade sehr praktisch. In den vorherigen Beispielen habe ich ja bereits relative Pfade genutzt, z.B. mit `Documents/`. Wenn wir dies expliziter als relativen Pfad angeben wollen, können wir auch `./Documents/` schreiben. In unseren Beispielen macht dies allerdings keinen Unterschied.
 - `..` beschreibt das überliegende Verzeichnis, das sogenannte "parent directory". Wir brauchen es also, um einen Pfad zum überliegenden Ordner zu erstellen zu können.
 

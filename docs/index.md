@@ -14,6 +14,7 @@ In der Datei [Begrifflichkeiten](Basics/Begrifflichkeiten.md) habe ich eine klei
 # Inhalt von diesem Guide
 
 Du kannst die Sidebar auf der linken Seite zur Navigation nutzen. Im groben sind die Abschnitte dieses Guides in zwei Kategorien aufgeteilt: `Basics` und `Guide`. Hier finden sich die folgenden Seiten:  
+
 - `Basics`:  
 	-  [Begrifflichkeiten](Basics/Begrifflichkeiten.md)  
 	- [Tipps bei Fragen und zur Fehleranalyse](Basics/Tipps%20bei%20Fragen%20und%20zur%20Fehleranalyse.md)  
