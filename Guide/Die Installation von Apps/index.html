@@ -1,0 +1,897 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Allt%C3%A4gliche%20T%C3%A4tigkeiten%20mit%20Fedora/">
+      
+      
+        <link rel="next" href="../praktische%20Dinge%20und%20kleine%20Hacks/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Die Installation von Apps - obsidian-mkdocs template</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#der-paketmanager" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="obsidian-mkdocs template" class="md-header__button md-logo" aria-label="obsidian-mkdocs template" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            obsidian-mkdocs template
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Die Installation von Apps
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="pink" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="obsidian-mkdocs template" class="md-nav__button md-logo" aria-label="obsidian-mkdocs template" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    obsidian-mkdocs template
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Basics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Basics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Basics/Begrifflichkeiten/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Begrifflichkeiten
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Basics/Tipps%20bei%20Fragen%20und%20zur%20Fehleranalyse/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tipps bei Fragen und zur Fehleranalyse
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guide
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Guide
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Der%20grobe%20Aufbau%20deines%20Systems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Der grobe Aufbau deines Systems
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Allt%C3%A4gliche%20T%C3%A4tigkeiten%20mit%20Fedora/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alltägliche Tätigkeiten mit Fedora
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Die Installation von Apps
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Die Installation von Apps
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation-und-deinstallation-einer-app-unter-windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installation und Deinstallation einer App unter Windows
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation-und-deinstallation-einer-app-mit-dem-paketmanager-apt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installation und Deinstallation einer App mit dem Paketmanager apt
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vergleich-der-beiden-ablaufe" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vergleich der beiden Abläufe
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../praktische%20Dinge%20und%20kleine%20Hacks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    praktische Dinge und kleine Hacks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Das%20Terminal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Das Terminal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation-und-deinstallation-einer-app-unter-windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installation und Deinstallation einer App unter Windows
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation-und-deinstallation-einer-app-mit-dem-paketmanager-apt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installation und Deinstallation einer App mit dem Paketmanager apt
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vergleich-der-beiden-ablaufe" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vergleich der beiden Abläufe
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<p>Wenn du dein System schon etwas erkundet hast, wirst du wahrscheinlich auf das Software Centre gestoßen sein.</p>
+<p><img alt="" src="../99%20assets/Pasted%20image%2020251213152023.png" /></p>
+<p>"Ich nutze also einfach diese App" wirst du dir denken. Und es spricht auch grundsätzlich nichts dagegen, deine Apps hier herunterzuladen und zu managen. Wenn du jedoch etwas tiefer in das Thema eintauchen willst, solltest du hier weiterlesen.</p>
+<hr />
+<h1 id="der-paketmanager">Der Paketmanager<a class="headerlink" href="#der-paketmanager" title="Permanent link">&para;</a></h1>
+<p>Wie der Name vermuten lässt, ist ein Paketmanager (oder englisch: package manager) dafür zuständig, Pakete auf dem System zu verwalten. Ein Paket kannst du dir vereinfacht als eine App vorstellen - auch wenn dies eigentlich nicht richtig ist. Mit einem Paketmanager werden Pakete (also quasi Apps) installiert, verwaltet, und gelöscht. </p>
+<p>Aber was bringt dir das? Lass uns einen Blick auf die Installation und anschließende Deinstallation einer App unter windows und unter Fedora mit dem Paketmanager <code>apt</code> werfen, um zu verstehen warum ein Paketmanager so unglaublich praktisch ist. Wir werden das ganze am Beispiel der App <code>OBS Studio</code> machen.</p>
+<h2 id="installation-und-deinstallation-einer-app-unter-windows">Installation und Deinstallation einer App unter Windows<a class="headerlink" href="#installation-und-deinstallation-einer-app-unter-windows" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p>Beschaffung der Installationsdatei</p>
+<p>Zuerst benötigen wir unsere Installationsdatei. Hierzu suchen wir online zum Beispiel nach "OBS download" und stoßen auf die Website <a href="https://obsproject.com">obsproject.com</a>. Unter "Download" bekommen wir eine <code>.exe</code> Installationsdatei. Bei anderen Programmen könnte dies jedoch auch eine <code>.msi</code> Datei sein, oder etwas völlig anderes.</p>
+</li>
+<li>
+<p>Der setup wizard</p>
+<p>Beim Ausführen der Installationsdatei startet der setup wizard. Nachdem wir uns durch das Menü geklickt haben, beginnt die eigentliche Installation. Im Hintergrund werden dabei hauptsächlich Dateien heruntergeladen und an verschiedenen Positionen im Dateisystem abgelegt.</p>
+</li>
+<li>
+<p>Starten der App</p>
+<p>Nun ist die App installiert und kann normal gestartet werden. Für dieses Beispiel werden wir die App als nächstes allerdings wieder deinstallieren.</p>
+</li>
+<li>
+<p>Deinstallation</p>
+<p>Wo fangen wir überhaupt hier an? 
+Der wahrscheinlich einfachste Weg beginnt in den Einstellungen: Unter "Apps" findet sich eine (mehr oder weniger vollständige) Liste der installierten Apps. Mit etwas Glück können wir hier die App auswählen und auf "Deinstallieren" drücken. Mit etwas Pech findet sich unsere App allerdings nicht in dieser Liste. </p>
+<p>Da haben wir aber Glück, dass unser Betriebssystem eigentlich nur ein Skin für ältere Windows Versionen ist. Deshalb können wir über die Systemsteuerung zu den installierten Apps navigieren, um hier auf "Deinstallieren" zu drücken. Aber auch hier müssen wir hoffen, dass Microsoft uns wohlgesonnen ist - bei verschiedenen vorinstallierten Apps ist das ganze nämlich auch hier nicht möglich.</p>
+</li>
+<li>
+<p>Der setup wizard, again</p>
+<p>Durch das drücken auf den "Deinstallieren" Knopf startet der setup wizard der App. Diesmal allerdings führt er uns durch den Deinstallationsprozess. Erneut können wir uns also durch die Menüs klicken, bis wir am Ende die App deinstalliert haben.</p>
+</li>
+<li>
+<p>Aufräumen</p>
+<p>Oft werden bei der Deinstallation nicht alle Daten des Programms gelöscht. Zum Beispiel bleiben oft Konfigurationsdateien auf dem System zurück. Dies kann eine praktische Sache sein: Sollten wir das Programm zu einem späteren Zeitpunkt erneut installieren, können diese Dateien genutzt werden um unter anderem Einstellungen wieder herzustellen. Aber mal ernsthaft: Ist das wirklich nötig? Oft wird dadurch einfach nur unser System mit Müll gefüllt.</p>
+<p>Wenn wir diese Dateien also auch löschen wollen, beginnt eine manuelle Jagd. Und dafür müssen wir an wirklich einigen Stellen schauen. Hier nur eine Auswahl an Orten, an denen sich noch Dateien von unserem Programm finden könnten:</p>
+<div class="highlight"><pre><span></span><code>C:\Program Files\...
+C:\Program Files (x86)\...
+C:\ProgramData\...
+C:\Users\&lt;USER&gt;\AppData\Roaming\...
+C:\Users\&lt;USER&gt;\AppData\Local\...
+</code></pre></div>
+<p>Viel Spaß ;D</p>
+</li>
+</ol>
+<h2 id="installation-und-deinstallation-einer-app-mit-dem-paketmanager-apt">Installation und Deinstallation einer App mit dem Paketmanager <code>apt</code><a class="headerlink" href="#installation-und-deinstallation-einer-app-mit-dem-paketmanager-apt" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p>Installation der App</p>
+<p>Öffne ein Terminal und führe dort folgenden Befehl aus:
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>dnf<span class="w"> </span>install<span class="w"> </span>obs-studio
+</code></pre></div>
+Da der Befehl mit <code>sudo</code> ausgeführt wird, müssen wir evtl. unser Passwort eingeben. 
+Kurz danach wird uns eine Liste angezeigt, welche wir durch das eingeben von <code>y</code> für <code>yes</code> sowie einem <code>Enter</code> bestätigen müssen.</p>
+</li>
+<li>
+<p>Starten der App</p>
+<p>Die App kann nun normal gestartet und genutzt werden. Wie zuvor auch, werden wir die App im nächsten Schritt allerdings wieder deinstallieren.</p>
+</li>
+<li>
+<p>Deinstallation der App</p>
+<p>Führe für die Deinstallation folgenden Befehl im Terminal aus:
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>dnf<span class="w"> </span>remove<span class="w"> </span>obs-studio
+</code></pre></div>
+Wieder wird uns eine Liste mit geplanten Änderungen angezeigt, welche wir mit <code>y</code> bestätigen können.</p>
+</li>
+</ol>
+<h2 id="vergleich-der-beiden-ablaufe">Vergleich der beiden Abläufe<a class="headerlink" href="#vergleich-der-beiden-ablaufe" title="Permanent link">&para;</a></h2>
+<p>Was sind also die Vorteile die uns der Paketmanager in dieser Situation bringt. Auch wenn aus diesem Beispiele hoffentlich einige sehr offensichtliche Punkte ersichtlich sind, möchte ich diese, sowie auch einige weitere, hier einmal auflisten:</p>
+<ul>
+<li>
+<p>Einfache Installation und Deinstallation</p>
+<p>Ich denke die vorherigen Kapitel belegen diese Aussage ausreichend.</p>
+</li>
+<li>
+<p>Einfache Updates</p>
+<p>Wenn wir Glück haben, können unsere Apps auf Windows sich selbst automatisch updaten. Wenn dies nicht der Fall ist, beginnt eine ähnliche Jagd wie schon bei der Installation, welche oft in einer kompletten Neuinstallation der App endet.
+Mit einem Paketmanager sind updates durch einen einzigen Befehl erledigt. In unserem Beispiel mit dnf lautet dieser:</p>
+<p><div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>dnf<span class="w"> </span>upgrade
+</code></pre></div>
+Dir fällt vielleicht auf, das hier kein bestimmtes Paket angegeben wird. Dieser Befehl updatet nämlich gleich alle Pakete, für die es ein update gibt - praktisch, oder?</p>
+</li>
+<li>
+<p>Besitzerverwaltung von Programmdateien</p>
+<p>Dir ist wahrscheinlich aufgefallen, dass es für die Deinstallation mit dem Paketmanager keinen "Aufräumen" - Schritt gibt. Der Grund dafür ist einfach: Er ist nicht nötig. Wenn ein Programm eine Konfigurationsdatei erstellt, dann weiß der Paketmanager zu welchem Programm diese Datei gehört. Somit können diese Dateien bei der Deinstallation ebenfalls gelöscht werden und es bleiben keine Reste zurück. Dies geschieht natürlich nicht mit Dateien welche mithilfe des Programms durch den Nutzer erstellt wurden: Die Aufnahmen die ich mit OBS gemacht habe, bleiben logischerweise auf dem System erhalten.</p>
+</li>
+<li>
+<p>Sichere Installation aus Vertrauenswürdiger Quelle</p>
+<p>Die Tatsache, dass wir auf Windows von irgendeiner Website eine Installationsdatei herunterladen müssen, stellt offensichtlicherweise ein Risiko dar. Es kommt oft vor, dass Hacker eine falsche Website für eine bekannte Software bauen, in der Hoffnung das Nutzer diese mit der echten Seite verwechseln und über den Download eine Schadsoftware installieren. Auch die Software aus unserem Beispiel, OBS, war in der Vergangenheit davon betroffen: <a href="https://obsproject.com/forum/threads/google-ad-serving-fake-obs-website-with-malware.162235/">Google Ad serving fake OBS website with Malware | OBS Forums</a></p>
+<p>Im Gegensatz dazu werden die Pakete, welche durch einen Paketmanager installiert werden können, zentral verwaltet. Hier werden die Pakete von vielen Augen überwacht und es kann sich nicht einfach ein falsches OBS einschleichen. Zusätzlich führt der Paketmanager während der Installation Sicherheitschecks durch, um sicherzustellen dass tatsächlich ein vertrauenswürdiges Paket aus einer vertrauenswürdigen Quelle installiert wird.</p>
+</li>
+</ul>
+<hr />
+<h1 id="funktionsweise-eines-paketmanagers">Funktionsweise eines Paketmanagers<a class="headerlink" href="#funktionsweise-eines-paketmanagers" title="Permanent link">&para;</a></h1>
+<p>Woher weiß unser Paketmanager, welche App installiert werden soll wenn wir <code>obs-studio</code> eintippen? Hierfür ist beim Paketmanager ein "repository" hinterlegt. In diesem repository sind Informationen zu Apps hinterlegt, z.B.:</p>
+<ul>
+<li>Wie heißt die App?</li>
+<li>Eine Beschreibung der App</li>
+<li>Welche Versionen der App gibt es?</li>
+<li>Von wo kann ich die relevanten Dateien installieren?</li>
+</ul>
+<p>Dieses repository wird an einem zentralen Ort gespeichert und gepflegt. Von dort kann sich der Paketmanager dann die aktuellsten Informationen zu den Apps besorgen. Zusätzlich wird durch den Paketmanager eine lokale Version des Repositorys gespeichert. Um die neuesten Informationen zu Paketen zu erhalten, muss diese lokale Version aktualisiert werden. Bei den meisten Paketmanagern geschieht dies über den <code>update</code> Befehl. Bei dnf musst du dich darum allerdings nicht kümmern - hier geschieht diese Aktualisierung automatisch. </p>
+<details class="tip">
+<summary>Exkurs: Repositorys</summary>
+<p>Vielleicht ist dir schon ein Problem aufgefallen: Was passiert, wenn ich eine App installieren möchte die nicht im Repository meines Paketmanagers aufgelistet ist?</p>
+<p>Es ist möglich, andere Repositorys zum Paketmanager hinzuzufügen, und somit Apps aus diesen anderen Repositorys zu installieren. Hier muss aber natürlich immer darauf geachtet werden, dass das Repository vertrauenswürdig ist. Öfters hat man den Fall, dass eine App nur mit bestimmten Paketmanagern installiert werden kann. In diesem Fall muss dann also ein anderer Paketmanager verwendet werden.</p>
+<p>Wenn man nun einen anderen Paketmanager für die Installation von manchem Apps verwendet, verliert man natürlich teilweise einige der vorhin genannten Vorteile, da es nun nicht mehr eine zentrale Stelle zum managen Apps gibt.</p>
+</details>
+<p>Wenn wir also <code>sudo dnf install obs-studio</code> ausführen, sucht der Paketmanager in seinen repositorys nach einem Paket namens "obs-studio". Mit den Informationen aus dem Repository kann das Paket dann installiert werden.</p>
+<h2 id="es-gibt-verschiedene-paketmanager">Es gibt verschiedene Paketmanager<a class="headerlink" href="#es-gibt-verschiedene-paketmanager" title="Permanent link">&para;</a></h2>
+<p>Natürlich gibt es nicht "den einen" Paketmanager. Verschiedene Distro Familien nutzen standardmäßig verschiedene Paketmanager. Auf Fedora-Systemen, also auch deinem Rechner, ist dies standardmäßig <code>dnf</code>. Auf Distros aus der Debian Familie ist dies <code>apt</code>. Außerdem gibt es zum Beispiel auch <code>flatpak</code>, ein Paketmanager welcher auf so gut wie allen Distros genutzt werden kann.</p>
+<p>Flatpak legt einen großen Fokus auf Kompatibilität. Das bedeutet: Wenn du eine App nicht über dnf installieren kannst, geht es sehr wahrscheinlich mit Flatpak. Aus technischer Sicht ist dies möglich, weil ein Flatpak (so wird eine App genantt, die über den Flatpak Paketmanager installiert wird) sehr stark vom System isoliert ist. Praktisch bedeutet dies, dass die Flatpak Version eine App oft deutlich mehr Speicherplatz benötigt, als die Version von anderen Paketmanagern. Unter Umständen funktionieren aufgrund der Isolation gewisse Funktionen der App nicht korrekt - ob dies ein Problem ist, hängt jedoch stark von der App ab. </p>
+<h2 id="welchen-paketmanager-sollte-ich-also-nutzen">Welchen Paketmanager sollte ich also nutzen?<a class="headerlink" href="#welchen-paketmanager-sollte-ich-also-nutzen" title="Permanent link">&para;</a></h2>
+<p>Primär solltest du probieren, den Paketmanager zu nutzen der Standardmäßig mit deinem System kommt: Für Fedora also <code>apt</code>. Die Pakete hier sind speziell für Fedora optimiert und getestet. Wenn du ein Paket benötigst welches hier nicht zu finden ist (was leider auch gar nicht so selten vorkommt), empfiehlt sich für dieses Paket Flatpak. So entsteht am Ende im Optimalfall ein Setup, in welchem der größte Teil deiner Pakete durch dnf gemanaged sind und ein kleiner Teil durch Flatpak. Wir erinnern uns: Ein großer Vorteil von Paketmanagern ist ja die Zentralisierung. Auf diese Weise erhalten wir so viel Zentralisierung wie möglich, um Dinge wie updates so einfach wie möglich zu machen.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Das Software Centre nutzt übrigens auch sowohl dnf wie auch Flatpak. Oben rechts können wir für eine bestimmte App auswählen, welcher Paketmanager für die jeweilige App genutzt werden soll - natürlich unter der Voraussetzung, dass das Paket bei mehreren Paketmanagern existiert.</p>
+<p><img alt="" src="../99%20assets/Pasted%20image%2020251220095956.png" /></p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>

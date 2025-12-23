@@ -1,0 +1,864 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../praktische%20Dinge%20und%20kleine%20Hacks/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Das Terminal - obsidian-mkdocs template</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#geschichte" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="obsidian-mkdocs template" class="md-header__button md-logo" aria-label="obsidian-mkdocs template" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            obsidian-mkdocs template
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Das Terminal
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="pink" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="obsidian-mkdocs template" class="md-nav__button md-logo" aria-label="obsidian-mkdocs template" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    obsidian-mkdocs template
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Basics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Basics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Basics/Begrifflichkeiten/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Begrifflichkeiten
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Basics/Tipps%20bei%20Fragen%20und%20zur%20Fehleranalyse/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tipps bei Fragen und zur Fehleranalyse
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guide
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Guide
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Der%20grobe%20Aufbau%20deines%20Systems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Der grobe Aufbau deines Systems
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Allt%C3%A4gliche%20T%C3%A4tigkeiten%20mit%20Fedora/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alltägliche Tätigkeiten mit Fedora
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Die%20Installation%20von%20Apps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Die Installation von Apps
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../praktische%20Dinge%20und%20kleine%20Hacks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    praktische Dinge und kleine Hacks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Das Terminal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<hr />
+<h1 id="geschichte">Geschichte<a class="headerlink" href="#geschichte" title="Permanent link">&para;</a></h1>
+<p>Was ist "Das Terminal" eigentlich? Der Begriff stammt schon aus der frühen Geschichte des Computers. Damals war es eine große Herausforderung, mit dem System zu interagieren. Man hatte ganze Räume, gefüllt mit riesigen Maschinen, und irgendwie muss man nun Informationen in diese Maschine hinein- und herausbekommen.</p>
+<p>Hierfür wurde eine Schnittstelle zur Maschine geschaffen, über welche entweder von der Maschine Daten ausgegeben werden konnten, oder Daten in die Maschine hinein gegeben werden konnten. Praktisch gesehen ist dies also einfach ein Datenkabel. Und am anderen Ende von diesem Kabel befand sich das Terminal. Hierbei handelte es sich oft um einen einfachen Bildschirm zum anzeigen von Textzeilen und eine Tastatur. Daten welche vom Computer kamen wurden auf dem Bildschirm angezeigt und über die Tastatur konnten Daten an den Computer geschickt werden. </p>
+<p>Historisch gesehen ist das Terminal also gar kein Teil des eigentlichen Computers, sondern nur ein angeschlossenes Gerät um mit diesem zu interagieren, wie eine Maus oder ein Drucker.</p>
+<hr />
+<h1 id="grundprinzipien">Grundprinzipien<a class="headerlink" href="#grundprinzipien" title="Permanent link">&para;</a></h1>
+<p>Beim öffnen des Terminals sehen wir folgendes:
+<img alt="" src="../99%20assets/Pasted%20image%2020251220133111.png" />
+Hieraus können wir drei Dinge ablesen:</p>
+<ol>
+<li><code>tristan</code> ist der Nutzer welcher gerade das Terminal nutzt</li>
+<li><code>fedora</code> ist der Name des Rechners</li>
+<li><code>~</code> ist der Pfad im Dateisystem an dem wir uns gerade befinden. Die Tilde (<code>~</code>) ist dabei ein spezielles Zeichen für das <code>Home</code> Verzeichnis des Nutzers. Der eigentliche Pfad lautet hier also <code>/home/tristan</code>.</li>
+</ol>
+<p>Alles was im Terminal geschieht, wird an einem bestimmten Ort im Dateisystem gemacht. Man spricht auch vom "working directory", also der Pfad bei welchem gerade gearbeitet wird. Dies ist natürlich vor allem relevant wenn wir mit Dateien arbeiten. Bevor wir dazu kommen, sollten wir uns jedoch kurz anschauen wie wir im Dateisystem navigieren können.</p>
+<hr />
+<h2 id="pfade-im-dateisystem">Pfade im Dateisystem<a class="headerlink" href="#pfade-im-dateisystem" title="Permanent link">&para;</a></h2>
+<p>Fangen wir an, indem wir uns kurz anschauen was mit einem "Pfad" gemeint ist. Grundsätzlich beschreibt ein Pfad immer einen Weg, in zu einem Ort im Dateisystem. Hierbei können wir zwischen zwei Arten unterscheiden:</p>
+<ol>
+<li><strong>absoluter Pfad</strong>
+    Ein absoluter Pfad beginnt immer im Ursprung des Dateisystems. Unter Windows ist dies in den meisten Fällen <code>C:</code>. Unter Linux ist das immer <code>/</code>. Der absolute Pfad zum <code>Documents</code> Ordner des Benutzers "admin" lautet: <code>/home/admin/Documents/</code>.</li>
+<li><strong>relativer Pfad</strong>
+    Ein relativer Pfad beginnt an der aktuellen Position und beschreibt den Weg von diesem Punkt aus. Wenn wir uns also im Nutzerordner von admin befinden (also in <code>/home/admin/</code>), dann lautet der relative Pfad zum <code>Documents</code> Ordner <code>Documents/</code>. Oft beginnen relative Pfade auch mit <code>./</code>. Auf die Bedeutung hiervon gehe ich ein paar Absätze weiter unten nochmal ein.</li>
+</ol>
+<p>Das Ziel eines Pfades kann dabei entweder ein Ordner (z.B. <code>/home/admin/Documents/</code>) oder eine Datei (z.B. <code>/home/admin/Documents/wichtigesDokument.txt</code>) sein. Ordner- und Dateinamen in einem Pfad sind case-sensitive. Das bedeutet: <code>Documents</code> und <code>documents</code> sind zwei unterschiedliche Ordner. Dementsprechend muss hier auf die richtige Schreibweise geachtet werden. Mit <code>tab</code> können die Namen auch vervollständigt werden</p>
+<hr />
+<h2 id="navigation">Navigation<a class="headerlink" href="#navigation" title="Permanent link">&para;</a></h2>
+<p>Um navigieren zu können, müssen wir natürlich erstmal wissen welche Dateien existieren. Hierfür wird der Befehl <code>ls</code> genutzt, welcher für "list" steht. In den folgenden Beispielen ist immer in der ersten Zeile der ausgeführte Befehl und ggf. in den darauffolgenden Zeilen die Ausgabe zu sehen. Am besten probierst du die Befehle auch selber aus.</p>
+<div class="highlight"><pre><span></span><code>ls<span class="w">  </span>
+Applications<span class="w">  </span>Desktop<span class="w">      </span>Documents<span class="w">  </span>Music<span class="w">     </span>Public<span class="w">     </span>Templates<span class="w">  </span>
+bin<span class="w">           </span>Development<span class="w">  </span>Downloads<span class="w">  </span>Pictures<span class="w">  </span>Scripting<span class="w">  </span>Videos
+</code></pre></div>
+<p>Ein Befehl besteht immer aus dem Namen und zugehörigen Parametern. Eigentlich sind Parameter nicht optional, doch unter Umständen existieren Standardwerte welche genutzt werden, wenn wir nichts eingeben. In  das working directory, also der Pfad an dem wir uns gerade befinden, der Standardwert. Wir können allerdings auch andere Pfade als Parameter mitgeben, um zum Beispiel den Inhalt des Ordners <code>Documents</code> zu sehen:</p>
+<div class="highlight"><pre><span></span><code>ls<span class="w"> </span>Documents/
+</code></pre></div>
+<p>Apropros working directory. Auch wenn wir dieses, wie oben beschrieben, sehr leicht ablesen können, existiert natürlich ein Befehl um es anzuzeigen. Dieser lautet "print working directory", oder kurz <code>pwd</code>.</p>
+<div class="highlight"><pre><span></span><code><span class="nb">pwd</span>
+/home/tristan
+</code></pre></div>
+<p>Lass uns in den <code>Documents</code> Ordner hinein navigieren. Hierfür nutzen wir den Befehl <code>cd</code>, welcher für "change directory" steht.</p>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>Documents/
+</code></pre></div>
+<p>Wir sehen, dass wir uns an einem neuen Ort im Dateisystem befinden:
+<img alt="" src="../99%20assets/Pasted%20image%2020251220142146.png" /></p>
+<p>Wir haben eben schon mit dem <code>ls</code> Befehl festgestellt, dass dieser Ordner leer ist. Dies stimmt allerdings nicht ganz, den standardmäßig zeigt uns der <code>ls</code> Befehl keine versteckten Dateien, Hierfür müssen wir eine sogenannte Flag nutzen. Flags sind ähnlich wie Optionen, bloß dass sie optional sind. Über die Flag <code>-a</code> (für "all") können wir die versteckten Dateien in unserem <code>Documents</code> Ordner sehen.</p>
+<div class="highlight"><pre><span></span><code>ls<span class="w"> </span>-a<span class="w">  </span>
+.<span class="w">  </span>..
+</code></pre></div>
+<p>Das ist ein komischer Ergebnis. Was ist <code>.</code> und <code>..</code>? </p>
+<p>Hier kommen wir zurück zu einem Konzept, welches ich am Anfang des Handbuches bereits kurz angesprochen hatte: <a href="../Der%20grobe%20Aufbau%20deines%20Systems/#Alles%20ist%20eine%20Datei">Alles ist eine Datei</a>. Und diese beiden Dateien sind für die Navigation wichtig: </p>
+<ul>
+<li><code>.</code> beschreibt das aktuelle Verzeichnis und ist somit für relative Pfade sehr praktisch. In den vorherigen Beispielen habe ich ja bereits relative Pfade genutzt, z.B. mit <code>Documents/</code>. Wenn wir dies expliziter als relativen Pfad angeben wollen, können wir auch <code>./Documents/</code> schreiben. In unseren Beispielen macht dies allerdings keinen Unterschied.</li>
+<li><code>..</code> beschreibt das überliegende Verzeichnis, das sogenannte "parent directory". Wir brauchen es also, um einen Pfad zum überliegenden Ordner zu erstellen zu können.</li>
+</ul>
+<p>Navigiere zurück in dein Home Verzeichnis, also einen Ordner "nach oben".</p>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>..
+</code></pre></div>
+<hr />
+<h2 id="ordner-und-dateien">Ordner und Dateien<a class="headerlink" href="#ordner-und-dateien" title="Permanent link">&para;</a></h2>
+<p>Jetzt können wir anfangen, mit Ordnern und Dateien zu arbeiten. Zum erstellen eines Ordners wird der Befehl <code>mkdir</code> genutzt, welcher für "make directory" steht. Erstelle einen Ordner in <code>Documents</code> damit wir dort ein wenig testen können.</p>
+<div class="highlight"><pre><span></span><code>mkdir<span class="w"> </span>./Documents/einNeuerOrdner/
+</code></pre></div>
+<p>Nutze den <code>cd</code> Befehl, um in den eben erstellten Ordner zu navigieren.</p>
+<details class="tip">
+<summary>Lösung</summary>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>./Documents/einNeuerOrdner/
+</code></pre></div>
+</details>
+<hr />
+<div class="admonition note">
+<p class="admonition-title">Hinweis</p>
+<p>Am Ende dieses Abschnitts habe ich alle beschriebenen (und auch einige nicht beschriebene) Befehle gesammelt: <a href="./#Befehlsübersicht">Befehlsübersicht</a>.</p>
+</div>
+<p>Lass uns als nächstes eine Datei erstellen. Hierfür wird der Befehl <code>touch</code> genutzt.
+<div class="highlight"><pre><span></span><code>touch<span class="w"> </span>datei.txt
+</code></pre></div></p>
+<p>Hierbei müssen wir darauf achten, auch die Dateiendung mit anzugeben. Ansonsten haben wir eine Datei ohne Dateityp.</p>
+<p>Zum bearbeiten der Datei können wir den Editor <code>nano</code> nutzen. Dies ist ein minimalistischer Texteditor welcher direkt im Terminal funktioniert.
+<div class="highlight"><pre><span></span><code>nano<span class="w"> </span>datei.txt
+</code></pre></div></p>
+<div class="admonition note">
+<p class="admonition-title">Hinweis</p>
+<p>Wir hätten übrigens auch direkt <code>nano datei.txt</code> nutzen können. Wenn wir hier einen Pfad angeben welcher nicht existiert, dann erstellt nano diese Datei für uns.</p>
+</div>
+<p>Nun können wir die Datei bearbeiten. Schreibe zum Beispiel "Hallo Welt!" in die erste Zeile. Am unteren Rand sehen wir einige Menüoptionen von nano. Diese werden durch Tastenkürzel genutzt. 
+<img alt="" src="../99%20assets/Pasted%20image%2020251220144939.png" /></p>
+<p>Um zu speichern müssen wir die Option <code>Write Out</code> aktivieren. Dies tuen wir mit <code>strg + o</code>. Anschließend bestätigen wir mit <code>Enter</code>. Um dann nano zu verlassen nutzen wir <code>strg + x</code> für <code>Exit</code>.</p>
+<p>Nun haben wir eine Datei mit Inhalt. Um diesen Inhalt anzuzeigen, können wir natürlich einen Editor (wie nano) nutzen. Wenn aber nur kurz einen Blick auf den Inhalt werden möchte, ist der <code>cat</code> Befehl einfacher. Dies steht für "concatinate", weil der Inhalt der Datei quasi an den Output des Terminals "angehängt" wird.</p>
+<div class="highlight"><pre><span></span><code>cat<span class="w"> </span>datei.txt
+</code></pre></div>
+<details class="tip">
+<summary>Exkurs: Output</summary>
+<p>Tatsächlich gibt es mehrere "Outputs", sogenannte Streams, für verschiedene Zwecke. Eine Information des Systems kann über verschiedene Streams ausgegeben werden. So gibt es z.B. <code>stdout</code> ("standard out"), welchem wir gerade folgen - und dem man eigentlich immer folgt. Es gibt aber z.B. auch <code>stderr</code> ("standard error"), welcher speziell für Fehlermeldungen genutzt wird.</p>
+<p>Denk zurück an die historische Entstehung des Terminals als Ein- und Ausgabegerät. Ein anderer Stream ist wie ein anderes Kabel welches wir an unser Terminal hängen. Und die Maschine gibt an diesem anderen Kabel eben andere Informationen aus.</p>
+</details>
+<p>Nun ist natürlich noch interessant, wie wir diese Datei wieder löschen können. Hierfür wird der <code>rm</code> Befehl genutzt, welcher für "remove" steht.</p>
+<div class="highlight"><pre><span></span><code>rm<span class="w"> </span>datei.txt
+</code></pre></div>
+<p>Mit <code>rm</code> lassen sich auch Ordner löschen. Hierfür muss die Flag <code>-r</code> ("recursive") genutzt werden. Navigiere zurück in den Documents Ordner und lösche das Verzeichnis <code>einNeuerOrdner</code>.</p>
+<details class="tip">
+<summary>Lösung</summary>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>..
+rm<span class="w"> </span>einNeuerOrdner/
+</code></pre></div>
+</details>
+<p>Mit dem <code>ls</code> Befehl können wir nun sehen, dass unser Documents Ordner nun wieder leer ist.
+<div class="highlight"><pre><span></span><code>ls
+<span class="c1"># (leere Ausgabe)</span>
+</code></pre></div></p>
+<p>Nun ist unser Terminal stark zugemüllt mit dem ganzen Text unserer Befehle. Mit dem Befehl <code>clear</code> kannst du hier ein wenig aufräumen.</p>
+<div class="highlight"><pre><span></span><code>clear
+</code></pre></div>
+<hr />
+<h1 id="befehlsubersicht">Befehlsübersicht<a class="headerlink" href="#befehlsubersicht" title="Permanent link">&para;</a></h1>
+<hr />
+<h2 id="navigation-und-dateien">Navigation und Dateien<a class="headerlink" href="#navigation-und-dateien" title="Permanent link">&para;</a></h2>
+<h3 id="ls"><code>ls</code><a class="headerlink" href="#ls" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>ls<span class="w"> </span>&lt;Verzeichnis&gt;
+</code></pre></div>
+<blockquote>
+<p><code>-a</code>: zeigt auch versteckte Dateien
+<code>-l</code>: zeigt zusätzliche Infos wie Besitzer der Datei</p>
+</blockquote>
+<ul>
+<li>"list"</li>
+<li>listet den Inhalt des angegebenen Verzeichnisses auf</li>
+</ul>
+<h3 id="cd"><code>cd</code><a class="headerlink" href="#cd" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>&lt;Verzeichnis&gt;
+</code></pre></div>
+<ul>
+<li>"change directory"</li>
+<li>ändert das working directory zum angegeben Verzeichnis</li>
+</ul>
+<h3 id="pwd"><code>pwd</code><a class="headerlink" href="#pwd" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="nb">pwd</span>
+</code></pre></div>
+<ul>
+<li>"print working directory"</li>
+</ul>
+<h3 id="mkdir"><code>mkdir</code><a class="headerlink" href="#mkdir" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>mkdir<span class="w"> </span>&lt;Verzeichnisname&gt;
+</code></pre></div>
+<blockquote>
+<p><code>-p</code>: "parents" -&gt; Wenn mehrere Ordner im Pfad nicht existieren</p>
+</blockquote>
+<ul>
+<li>"make directory"</li>
+<li>erstellt einen Ordner</li>
+</ul>
+<h3 id="touch"><code>touch</code><a class="headerlink" href="#touch" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>touch<span class="w"> </span>&lt;Dateiname&gt;
+</code></pre></div>
+<ul>
+<li>erstellt eine Datei</li>
+</ul>
+<h3 id="cat"><code>cat</code><a class="headerlink" href="#cat" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>cat<span class="w"> </span>&lt;Dateiname&gt;
+</code></pre></div>
+<ul>
+<li>"concatinate"</li>
+<li>schreibt den Inhalt einer Datei zu stdout</li>
+</ul>
+<h3 id="rm"><code>rm</code><a class="headerlink" href="#rm" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>rm<span class="w"> </span>&lt;Pfad&gt;
+</code></pre></div>
+<blockquote>
+<p><code>-r</code>: "recursive"  -&gt; für Verzeichnisse</p>
+</blockquote>
+<ul>
+<li>"remove"</li>
+<li>Löscht eine Datei</li>
+</ul>
+<hr />
+<h2 id="paketmanager">Paketmanager<a class="headerlink" href="#paketmanager" title="Permanent link">&para;</a></h2>
+<p>Befehle für die Arbeit mit den Paketmanagern <code>dnf</code> und <code>flatpak</code>. Weitere Infos zum Paketmanager finden sich im Abschnitt <a href="../Die%20Installation%20von%20Apps/">Die Installation von Apps</a>.</p>
+<p>Die Überschriften sind immer mit dem "dnf Namen" betitelt, falls der äquivalente Flatpak Befehl abweichen sollte.</p>
+<p>Für viele dnf Befehle ist <code>sudo</code> nötig. Da flatpaks stark vom restlichen System isoliert sind, ist hier die erhöhten Rechte meist nicht notwendig.</p>
+<h3 id="install"><code>install</code><a class="headerlink" href="#install" title="Permanent link">&para;</a></h3>
+<p><div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>dnf<span class="w"> </span>install<span class="w"> </span>&lt;package-name&gt;
+flatpak<span class="w"> </span>install<span class="w"> </span>&lt;package-name&gt;
+</code></pre></div>
+- Installiert ein Paket und seine Abhängigkeiten</p>
+<h3 id="upgrade"><code>upgrade</code><a class="headerlink" href="#upgrade" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>dnf<span class="w"> </span>upgrade
+flatpak<span class="w"> </span>update
+</code></pre></div>
+<ul>
+<li>Aktualisiert alle installierten Pakete auf die neueste Version</li>
+</ul>
+<h3 id="remove"><code>remove</code><a class="headerlink" href="#remove" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>dnf<span class="w"> </span>remove<span class="w"> </span>&lt;package-name&gt;
+flatpak<span class="w"> </span>uninstall<span class="w"> </span>&lt;package-name&gt;
+</code></pre></div>
+<ul>
+<li>Deinstalliert ein Paket und seine Abhängigkeiten</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>
